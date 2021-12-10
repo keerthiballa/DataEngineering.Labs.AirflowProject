@@ -1,0 +1,2 @@
+[2021-12-06 11:26:54,584] {taskinstance.py:1025} INFO - Dependencies not met for <TaskInstance: brent_pricing_dag.Split_the_dataset_into_training_and_test_sets scheduled__2021-12-05T00:00:00+00:00 [queued]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_tasks_state={'total': 1, 'successes': 0, 'skipped': 0, 'failed': 0, 'upstream_failed': 0, 'done': 0}, upstream_task_ids={'x_y_values'}
+[2021-12-06 11:26:54,584] {local_task_job.py:99} INFO - Task is not able to be run

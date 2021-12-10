@@ -1,0 +1,28 @@
+[2021-12-09 15:51:29,301] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.Train_the_Regression_Model_RFR_on_the_training_set manual__2021-12-09T20:47:50.813544+00:00 [queued]>
+[2021-12-09 15:51:29,308] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.Train_the_Regression_Model_RFR_on_the_training_set manual__2021-12-09T20:47:50.813544+00:00 [queued]>
+[2021-12-09 15:51:29,308] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-09 15:51:29,308] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-12-09 15:51:29,308] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-09 15:51:29,320] {taskinstance.py:1262} INFO - Executing <Task(PythonOperator): Train_the_Regression_Model_RFR_on_the_training_set> on 2021-12-09 20:47:50.813544+00:00
+[2021-12-09 15:51:29,325] {standard_task_runner.py:52} INFO - Started process 31369 to run task
+[2021-12-09 15:51:29,331] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'brent_pricing_dag', 'Train_the_Regression_Model_RFR_on_the_training_set', 'manual__2021-12-09T20:47:50.813544+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/dag_brent_pricing.py', '--cfg-path', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmpfjy9z6g_', '--error-file', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmprdlqlsz5']
+[2021-12-09 15:51:29,333] {standard_task_runner.py:77} INFO - Job 71: Subtask Train_the_Regression_Model_RFR_on_the_training_set
+[2021-12-09 15:51:34,360] {logging_mixin.py:109} INFO - Running <TaskInstance: brent_pricing_dag.Train_the_Regression_Model_RFR_on_the_training_set manual__2021-12-09T20:47:50.813544+00:00 [running]> on host zipcodes-MacBook-Pro-3.local
+[2021-12-09 15:51:39,394] {taskinstance.py:1427} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=keerthiballa@gmail.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=brent_pricing_dag
+AIRFLOW_CTX_TASK_ID=Train_the_Regression_Model_RFR_on_the_training_set
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-09T20:47:50.813544+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-09T20:47:50.813544+00:00
+[2021-12-09 15:51:40,381] {logging_mixin.py:109} INFO - Training and testing Datasets for x and y are created successfully and the original tables in SQL are retained
+[2021-12-09 15:51:40,628] {logging_mixin.py:109} WARNING - /Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/sklearn/utils/validation.py:1675 FutureWarning: Feature names only support names that are all strings. Got feature names with dtypes: ['quoted_name']. An error will be raised in 1.2.
+[2021-12-09 15:51:40,633] {logging_mixin.py:109} WARNING - /Users/ballakeerthi/dev/airflow/dags/brent_ML_reg_models.py:336 DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+[2021-12-09 15:51:40,991] {logging_mixin.py:109} WARNING - /Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/sklearn/utils/validation.py:1675 FutureWarning: Feature names only support names that are all strings. Got feature names with dtypes: ['quoted_name']. An error will be raised in 1.2.
+[2021-12-09 15:51:41,007] {logging_mixin.py:109} INFO - Results table successfully updated
+[2021-12-09 15:51:41,009] {python.py:152} INFO - Done. Returned value was: ('random forest regression', 0.9930639066841598)
+[2021-12-09 15:51:41,017] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=brent_pricing_dag, task_id=Train_the_Regression_Model_RFR_on_the_training_set, execution_date=20211209T204750, start_date=20211209T205129, end_date=20211209T205141
+[2021-12-09 15:51:41,037] {local_task_job.py:154} INFO - Task exited with return code 0
+[2021-12-09 15:51:41,054] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

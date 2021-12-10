@@ -1,0 +1,980 @@
+[2021-12-06 15:04:35,624] {processor.py:163} INFO - Started process (PID=17167) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:04:35,625] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 15:04:35,626] {logging_mixin.py:109} INFO - [2021-12-06 15:04:35,626] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:04:35,631] {logging_mixin.py:109} INFO - [2021-12-06 15:04:35,629] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 15:04:35,656] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:04:35,661] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.037 seconds
+[2021-12-06 15:08:58,769] {processor.py:163} INFO - Started process (PID=17292) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:08:58,770] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 15:08:58,772] {logging_mixin.py:109} INFO - [2021-12-06 15:08:58,772] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:08:58,775] {logging_mixin.py:109} INFO - [2021-12-06 15:08:58,773] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 15:08:58,798] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:08:58,802] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.033 seconds
+[2021-12-06 15:14:01,170] {processor.py:163} INFO - Started process (PID=17415) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:14:01,171] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 15:14:01,173] {logging_mixin.py:109} INFO - [2021-12-06 15:14:01,173] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:14:01,177] {logging_mixin.py:109} INFO - [2021-12-06 15:14:01,175] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 15:14:01,203] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:14:01,207] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.038 seconds
+[2021-12-06 15:19:16,894] {processor.py:163} INFO - Started process (PID=17554) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:19:16,895] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 15:19:16,896] {logging_mixin.py:109} INFO - [2021-12-06 15:19:16,896] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:19:16,900] {logging_mixin.py:109} INFO - [2021-12-06 15:19:16,898] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 15:19:16,926] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:19:16,964] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.071 seconds
+[2021-12-06 15:25:05,413] {processor.py:163} INFO - Started process (PID=17672) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:25:05,414] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 15:25:05,416] {logging_mixin.py:109} INFO - [2021-12-06 15:25:05,416] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:25:05,421] {logging_mixin.py:109} INFO - [2021-12-06 15:25:05,419] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 15:25:05,441] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:25:05,444] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.032 seconds
+[2021-12-06 15:31:35,386] {processor.py:163} INFO - Started process (PID=17785) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:31:35,387] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 15:31:35,389] {logging_mixin.py:109} INFO - [2021-12-06 15:31:35,389] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:31:35,394] {logging_mixin.py:109} INFO - [2021-12-06 15:31:35,392] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 15:31:35,423] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:31:35,427] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.042 seconds
+[2021-12-06 15:38:11,193] {processor.py:163} INFO - Started process (PID=17853) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:38:11,195] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 15:38:11,199] {logging_mixin.py:109} INFO - [2021-12-06 15:38:11,199] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:38:11,206] {logging_mixin.py:109} INFO - [2021-12-06 15:38:11,204] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 15:38:11,292] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:38:11,299] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.107 seconds
+[2021-12-06 15:44:38,189] {processor.py:163} INFO - Started process (PID=17950) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:44:38,189] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 15:44:38,191] {logging_mixin.py:109} INFO - [2021-12-06 15:44:38,191] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:44:38,194] {logging_mixin.py:109} INFO - [2021-12-06 15:44:38,193] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 15:44:38,217] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:44:38,221] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.033 seconds
+[2021-12-06 15:51:18,928] {processor.py:163} INFO - Started process (PID=18010) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:51:18,929] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 15:51:18,931] {logging_mixin.py:109} INFO - [2021-12-06 15:51:18,931] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:51:18,935] {logging_mixin.py:109} INFO - [2021-12-06 15:51:18,933] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 15:51:18,956] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:51:18,960] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.032 seconds
+[2021-12-06 15:57:43,168] {processor.py:163} INFO - Started process (PID=18111) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:57:43,168] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 15:57:43,170] {logging_mixin.py:109} INFO - [2021-12-06 15:57:43,170] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:57:43,173] {logging_mixin.py:109} INFO - [2021-12-06 15:57:43,172] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 15:57:43,194] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 15:57:43,198] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.031 seconds
+[2021-12-06 16:03:39,665] {processor.py:163} INFO - Started process (PID=18168) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:03:39,666] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:03:39,671] {logging_mixin.py:109} INFO - [2021-12-06 16:03:39,671] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:03:39,679] {logging_mixin.py:109} INFO - [2021-12-06 16:03:39,676] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:03:39,916] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:03:39,928] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.267 seconds
+[2021-12-06 16:09:16,511] {processor.py:163} INFO - Started process (PID=18260) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:09:16,517] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:09:16,525] {logging_mixin.py:109} INFO - [2021-12-06 16:09:16,525] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:09:16,537] {logging_mixin.py:109} INFO - [2021-12-06 16:09:16,533] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:09:16,721] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:09:16,826] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.316 seconds
+[2021-12-06 16:16:28,597] {processor.py:163} INFO - Started process (PID=18352) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:16:28,598] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:16:28,599] {logging_mixin.py:109} INFO - [2021-12-06 16:16:28,599] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:16:28,602] {logging_mixin.py:109} INFO - [2021-12-06 16:16:28,601] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:16:28,623] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:16:28,628] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.032 seconds
+[2021-12-06 16:20:49,705] {processor.py:163} INFO - Started process (PID=18400) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:20:49,705] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:20:49,707] {logging_mixin.py:109} INFO - [2021-12-06 16:20:49,707] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:20:49,709] {logging_mixin.py:109} INFO - [2021-12-06 16:20:49,708] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:20:49,763] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:20:49,769] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.066 seconds
+[2021-12-06 16:24:17,842] {processor.py:163} INFO - Started process (PID=18443) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:24:17,843] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:24:17,848] {logging_mixin.py:109} INFO - [2021-12-06 16:24:17,847] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:24:17,856] {logging_mixin.py:109} INFO - [2021-12-06 16:24:17,853] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:24:17,909] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:24:17,917] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.076 seconds
+[2021-12-06 16:29:01,140] {processor.py:163} INFO - Started process (PID=18520) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:29:01,141] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:29:01,144] {logging_mixin.py:109} INFO - [2021-12-06 16:29:01,144] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:29:01,150] {logging_mixin.py:109} INFO - [2021-12-06 16:29:01,146] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:29:01,193] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:29:01,205] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.065 seconds
+[2021-12-06 16:32:29,237] {processor.py:163} INFO - Started process (PID=18576) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:32:29,239] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:32:29,241] {logging_mixin.py:109} INFO - [2021-12-06 16:32:29,241] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:32:29,248] {logging_mixin.py:109} INFO - [2021-12-06 16:32:29,243] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:32:29,277] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:32:29,281] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.044 seconds
+[2021-12-06 16:34:36,007] {processor.py:163} INFO - Started process (PID=18611) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:34:36,008] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:34:36,011] {logging_mixin.py:109} INFO - [2021-12-06 16:34:36,011] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:34:36,016] {logging_mixin.py:109} INFO - [2021-12-06 16:34:36,013] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:34:36,100] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:34:36,104] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.098 seconds
+[2021-12-06 16:36:47,090] {processor.py:163} INFO - Started process (PID=18644) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:36:47,091] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:36:47,094] {logging_mixin.py:109} INFO - [2021-12-06 16:36:47,094] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:36:47,099] {logging_mixin.py:109} INFO - [2021-12-06 16:36:47,097] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:36:47,139] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:36:47,148] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.060 seconds
+[2021-12-06 16:39:01,823] {processor.py:163} INFO - Started process (PID=18677) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:39:01,824] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:39:01,825] {logging_mixin.py:109} INFO - [2021-12-06 16:39:01,825] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:39:01,829] {logging_mixin.py:109} INFO - [2021-12-06 16:39:01,828] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:39:01,848] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:39:01,851] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.028 seconds
+[2021-12-06 16:41:16,975] {processor.py:163} INFO - Started process (PID=18713) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:41:16,975] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:41:16,977] {logging_mixin.py:109} INFO - [2021-12-06 16:41:16,977] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:41:16,988] {logging_mixin.py:109} INFO - [2021-12-06 16:41:16,986] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:41:17,010] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:41:17,013] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.039 seconds
+[2021-12-06 16:43:35,570] {processor.py:163} INFO - Started process (PID=18746) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:43:35,572] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:43:35,574] {logging_mixin.py:109} INFO - [2021-12-06 16:43:35,574] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:43:35,578] {logging_mixin.py:109} INFO - [2021-12-06 16:43:35,576] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:43:35,596] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:43:35,599] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.029 seconds
+[2021-12-06 16:45:58,874] {processor.py:163} INFO - Started process (PID=18782) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:45:58,880] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:45:58,883] {logging_mixin.py:109} INFO - [2021-12-06 16:45:58,883] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:45:58,889] {logging_mixin.py:109} INFO - [2021-12-06 16:45:58,886] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:45:58,931] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:45:58,939] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.066 seconds
+[2021-12-06 16:48:20,090] {processor.py:163} INFO - Started process (PID=18814) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:48:20,096] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:48:20,098] {logging_mixin.py:109} INFO - [2021-12-06 16:48:20,098] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:48:20,103] {logging_mixin.py:109} INFO - [2021-12-06 16:48:20,101] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:48:20,123] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:48:20,127] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.037 seconds
+[2021-12-06 16:50:41,500] {processor.py:163} INFO - Started process (PID=18850) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:50:41,506] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:50:41,509] {logging_mixin.py:109} INFO - [2021-12-06 16:50:41,509] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:50:41,513] {logging_mixin.py:109} INFO - [2021-12-06 16:50:41,511] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:50:41,570] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:50:41,579] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.081 seconds
+[2021-12-06 16:53:08,250] {processor.py:163} INFO - Started process (PID=18885) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:53:08,251] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:53:08,252] {logging_mixin.py:109} INFO - [2021-12-06 16:53:08,252] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:53:08,255] {logging_mixin.py:109} INFO - [2021-12-06 16:53:08,254] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:53:08,276] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:53:08,279] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.029 seconds
+[2021-12-06 16:55:28,739] {processor.py:163} INFO - Started process (PID=18919) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:55:28,745] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:55:28,748] {logging_mixin.py:109} INFO - [2021-12-06 16:55:28,747] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:55:28,752] {logging_mixin.py:109} INFO - [2021-12-06 16:55:28,750] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:55:28,773] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:55:28,776] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.037 seconds
+[2021-12-06 16:57:45,666] {processor.py:163} INFO - Started process (PID=18952) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:57:45,667] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 16:57:45,669] {logging_mixin.py:109} INFO - [2021-12-06 16:57:45,669] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:57:45,672] {logging_mixin.py:109} INFO - [2021-12-06 16:57:45,671] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 16:57:45,690] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 16:57:45,693] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.027 seconds
+[2021-12-06 17:00:03,882] {processor.py:163} INFO - Started process (PID=18986) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:00:03,888] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:00:03,891] {logging_mixin.py:109} INFO - [2021-12-06 17:00:03,891] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:00:03,895] {logging_mixin.py:109} INFO - [2021-12-06 17:00:03,893] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:00:03,935] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:00:03,944] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.064 seconds
+[2021-12-06 17:02:22,307] {processor.py:163} INFO - Started process (PID=19024) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:02:22,313] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:02:22,315] {logging_mixin.py:109} INFO - [2021-12-06 17:02:22,315] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:02:22,320] {logging_mixin.py:109} INFO - [2021-12-06 17:02:22,318] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:02:22,341] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:02:22,344] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.037 seconds
+[2021-12-06 17:04:37,558] {processor.py:163} INFO - Started process (PID=19058) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:04:37,563] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:04:37,566] {logging_mixin.py:109} INFO - [2021-12-06 17:04:37,566] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:04:37,570] {logging_mixin.py:109} INFO - [2021-12-06 17:04:37,568] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:04:37,653] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:04:37,667] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.110 seconds
+[2021-12-06 17:06:55,326] {processor.py:163} INFO - Started process (PID=19092) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:06:55,326] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:06:55,327] {logging_mixin.py:109} INFO - [2021-12-06 17:06:55,327] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:06:55,328] {logging_mixin.py:109} INFO - [2021-12-06 17:06:55,328] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:06:55,345] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:06:55,351] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.026 seconds
+[2021-12-06 17:09:14,282] {processor.py:163} INFO - Started process (PID=19128) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:09:14,289] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:09:14,292] {logging_mixin.py:109} INFO - [2021-12-06 17:09:14,292] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:09:14,298] {logging_mixin.py:109} INFO - [2021-12-06 17:09:14,295] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:09:14,339] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:09:14,347] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.066 seconds
+[2021-12-06 17:11:21,724] {processor.py:163} INFO - Started process (PID=19168) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:11:21,730] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:11:21,733] {logging_mixin.py:109} INFO - [2021-12-06 17:11:21,733] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:11:21,738] {logging_mixin.py:109} INFO - [2021-12-06 17:11:21,736] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:11:21,778] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:11:21,786] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.064 seconds
+[2021-12-06 17:13:34,521] {processor.py:163} INFO - Started process (PID=19201) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:13:34,526] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:13:34,528] {logging_mixin.py:109} INFO - [2021-12-06 17:13:34,528] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:13:34,533] {logging_mixin.py:109} INFO - [2021-12-06 17:13:34,529] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:13:34,556] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:13:34,560] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.039 seconds
+[2021-12-06 17:15:54,014] {processor.py:163} INFO - Started process (PID=19252) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:15:54,019] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:15:54,022] {logging_mixin.py:109} INFO - [2021-12-06 17:15:54,022] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:15:54,026] {logging_mixin.py:109} INFO - [2021-12-06 17:15:54,024] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:15:54,047] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:15:54,050] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.037 seconds
+[2021-12-06 17:18:14,977] {processor.py:163} INFO - Started process (PID=19287) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:18:14,978] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:18:14,983] {logging_mixin.py:109} INFO - [2021-12-06 17:18:14,983] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:18:14,988] {logging_mixin.py:109} INFO - [2021-12-06 17:18:14,986] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:18:15,040] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:18:15,047] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.072 seconds
+[2021-12-06 17:20:29,194] {processor.py:163} INFO - Started process (PID=19319) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:20:29,200] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:20:29,203] {logging_mixin.py:109} INFO - [2021-12-06 17:20:29,203] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:20:29,208] {logging_mixin.py:109} INFO - [2021-12-06 17:20:29,206] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:20:29,249] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:20:29,257] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.064 seconds
+[2021-12-06 17:22:52,411] {processor.py:163} INFO - Started process (PID=19354) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:22:52,417] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:22:52,419] {logging_mixin.py:109} INFO - [2021-12-06 17:22:52,419] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:22:52,423] {logging_mixin.py:109} INFO - [2021-12-06 17:22:52,421] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:22:52,443] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:22:52,446] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.036 seconds
+[2021-12-06 17:25:15,523] {processor.py:163} INFO - Started process (PID=19390) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:25:15,529] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:25:15,532] {logging_mixin.py:109} INFO - [2021-12-06 17:25:15,532] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:25:15,538] {logging_mixin.py:109} INFO - [2021-12-06 17:25:15,536] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:25:15,559] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:25:15,562] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.040 seconds
+[2021-12-06 17:27:28,326] {processor.py:163} INFO - Started process (PID=19423) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:27:28,327] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:27:28,330] {logging_mixin.py:109} INFO - [2021-12-06 17:27:28,330] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:27:28,336] {logging_mixin.py:109} INFO - [2021-12-06 17:27:28,333] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:27:28,377] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:27:28,386] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.061 seconds
+[2021-12-06 17:29:39,570] {processor.py:163} INFO - Started process (PID=19455) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:29:39,576] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:29:39,579] {logging_mixin.py:109} INFO - [2021-12-06 17:29:39,578] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:29:39,583] {logging_mixin.py:109} INFO - [2021-12-06 17:29:39,581] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:29:39,603] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:29:39,606] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.037 seconds
+[2021-12-06 17:31:55,446] {processor.py:163} INFO - Started process (PID=19488) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:31:55,448] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:31:55,450] {logging_mixin.py:109} INFO - [2021-12-06 17:31:55,450] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:31:55,454] {logging_mixin.py:109} INFO - [2021-12-06 17:31:55,452] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:31:55,472] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:31:55,475] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.030 seconds
+[2021-12-06 17:34:09,436] {processor.py:163} INFO - Started process (PID=19523) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:34:09,437] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:34:09,440] {logging_mixin.py:109} INFO - [2021-12-06 17:34:09,440] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:34:09,443] {logging_mixin.py:109} INFO - [2021-12-06 17:34:09,442] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:34:09,483] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:34:09,495] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.059 seconds
+[2021-12-06 17:36:19,773] {processor.py:163} INFO - Started process (PID=19554) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:36:19,774] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:36:19,775] {logging_mixin.py:109} INFO - [2021-12-06 17:36:19,775] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:36:19,776] {logging_mixin.py:109} INFO - [2021-12-06 17:36:19,776] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:36:19,803] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:36:19,807] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.034 seconds
+[2021-12-06 17:38:33,961] {processor.py:163} INFO - Started process (PID=19585) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:38:33,964] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:38:33,967] {logging_mixin.py:109} INFO - [2021-12-06 17:38:33,967] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:38:33,972] {logging_mixin.py:109} INFO - [2021-12-06 17:38:33,970] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:38:34,013] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:38:34,019] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.059 seconds
+[2021-12-06 17:40:47,522] {processor.py:163} INFO - Started process (PID=19623) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:40:47,523] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:40:47,524] {logging_mixin.py:109} INFO - [2021-12-06 17:40:47,524] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:40:47,528] {logging_mixin.py:109} INFO - [2021-12-06 17:40:47,526] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:40:47,546] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:40:47,550] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.028 seconds
+[2021-12-06 17:43:06,796] {processor.py:163} INFO - Started process (PID=19656) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:43:06,797] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:43:06,799] {logging_mixin.py:109} INFO - [2021-12-06 17:43:06,798] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:43:06,802] {logging_mixin.py:109} INFO - [2021-12-06 17:43:06,801] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:43:06,821] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:43:06,824] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.028 seconds
+[2021-12-06 17:45:21,704] {processor.py:163} INFO - Started process (PID=19688) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:45:21,710] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:45:21,713] {logging_mixin.py:109} INFO - [2021-12-06 17:45:21,713] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:45:21,717] {logging_mixin.py:109} INFO - [2021-12-06 17:45:21,715] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:45:21,758] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:45:21,767] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.064 seconds
+[2021-12-06 17:47:36,659] {processor.py:163} INFO - Started process (PID=19721) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:47:36,660] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:47:36,661] {logging_mixin.py:109} INFO - [2021-12-06 17:47:36,661] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:47:36,662] {logging_mixin.py:109} INFO - [2021-12-06 17:47:36,662] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:47:36,679] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:47:36,688] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.029 seconds
+[2021-12-06 17:49:50,588] {processor.py:163} INFO - Started process (PID=19755) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:49:50,588] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:49:50,589] {logging_mixin.py:109} INFO - [2021-12-06 17:49:50,589] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:49:50,590] {logging_mixin.py:109} INFO - [2021-12-06 17:49:50,590] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:49:50,607] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:49:50,616] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.029 seconds
+[2021-12-06 17:52:04,585] {processor.py:163} INFO - Started process (PID=19786) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:52:04,585] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:52:04,586] {logging_mixin.py:109} INFO - [2021-12-06 17:52:04,586] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:52:04,588] {logging_mixin.py:109} INFO - [2021-12-06 17:52:04,587] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:52:04,604] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:52:04,613] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.029 seconds
+[2021-12-06 17:54:15,407] {processor.py:163} INFO - Started process (PID=19819) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:54:15,408] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:54:15,411] {logging_mixin.py:109} INFO - [2021-12-06 17:54:15,411] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:54:15,414] {logging_mixin.py:109} INFO - [2021-12-06 17:54:15,413] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:54:15,465] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:54:15,475] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.069 seconds
+[2021-12-06 17:56:29,617] {processor.py:163} INFO - Started process (PID=19852) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:56:29,617] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:56:29,619] {logging_mixin.py:109} INFO - [2021-12-06 17:56:29,619] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:56:29,621] {logging_mixin.py:109} INFO - [2021-12-06 17:56:29,621] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:56:29,640] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:56:29,643] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.027 seconds
+[2021-12-06 17:58:44,102] {processor.py:163} INFO - Started process (PID=19884) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:58:44,104] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 17:58:44,110] {logging_mixin.py:109} INFO - [2021-12-06 17:58:44,110] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:58:44,115] {logging_mixin.py:109} INFO - [2021-12-06 17:58:44,113] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 17:58:44,134] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 17:58:44,138] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.037 seconds
+[2021-12-06 18:00:55,791] {processor.py:163} INFO - Started process (PID=19918) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:00:55,792] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:00:55,793] {logging_mixin.py:109} INFO - [2021-12-06 18:00:55,793] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:00:55,797] {logging_mixin.py:109} INFO - [2021-12-06 18:00:55,795] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:00:55,817] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:00:55,820] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.029 seconds
+[2021-12-06 18:03:13,056] {processor.py:163} INFO - Started process (PID=19952) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:03:13,062] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:03:13,064] {logging_mixin.py:109} INFO - [2021-12-06 18:03:13,064] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:03:13,068] {logging_mixin.py:109} INFO - [2021-12-06 18:03:13,066] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:03:13,090] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:03:13,093] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.051 seconds
+[2021-12-06 18:05:31,602] {processor.py:163} INFO - Started process (PID=19988) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:05:31,603] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:05:31,604] {logging_mixin.py:109} INFO - [2021-12-06 18:05:31,604] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:05:31,610] {logging_mixin.py:109} INFO - [2021-12-06 18:05:31,608] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:05:31,629] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:05:31,632] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.031 seconds
+[2021-12-06 18:07:47,845] {processor.py:163} INFO - Started process (PID=20024) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:07:47,847] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:07:47,849] {logging_mixin.py:109} INFO - [2021-12-06 18:07:47,849] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:07:47,852] {logging_mixin.py:109} INFO - [2021-12-06 18:07:47,850] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:07:47,869] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:07:47,875] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.030 seconds
+[2021-12-06 18:09:58,271] {processor.py:163} INFO - Started process (PID=20059) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:09:58,272] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:09:58,274] {logging_mixin.py:109} INFO - [2021-12-06 18:09:58,274] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:09:58,278] {logging_mixin.py:109} INFO - [2021-12-06 18:09:58,276] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:09:58,296] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:09:58,299] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.029 seconds
+[2021-12-06 18:12:16,887] {processor.py:163} INFO - Started process (PID=20094) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:12:16,888] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:12:16,889] {logging_mixin.py:109} INFO - [2021-12-06 18:12:16,889] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:12:16,896] {logging_mixin.py:109} INFO - [2021-12-06 18:12:16,893] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:12:16,917] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:12:16,921] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.034 seconds
+[2021-12-06 18:14:35,833] {processor.py:163} INFO - Started process (PID=20128) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:14:35,839] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:14:35,841] {logging_mixin.py:109} INFO - [2021-12-06 18:14:35,841] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:14:35,844] {logging_mixin.py:109} INFO - [2021-12-06 18:14:35,844] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:14:35,865] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:14:35,868] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.036 seconds
+[2021-12-06 18:17:12,612] {processor.py:163} INFO - Started process (PID=20168) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:17:12,614] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:17:12,619] {logging_mixin.py:109} INFO - [2021-12-06 18:17:12,619] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:17:12,623] {logging_mixin.py:109} INFO - [2021-12-06 18:17:12,621] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:17:12,644] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:17:12,647] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.036 seconds
+[2021-12-06 18:21:42,831] {processor.py:163} INFO - Started process (PID=20234) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:21:42,833] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:21:42,834] {logging_mixin.py:109} INFO - [2021-12-06 18:21:42,834] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:21:42,837] {logging_mixin.py:109} INFO - [2021-12-06 18:21:42,836] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:21:42,856] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:21:42,859] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.029 seconds
+[2021-12-06 18:25:51,848] {processor.py:163} INFO - Started process (PID=20282) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:25:51,849] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:25:51,850] {logging_mixin.py:109} INFO - [2021-12-06 18:25:51,850] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:25:51,853] {logging_mixin.py:109} INFO - [2021-12-06 18:25:51,851] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:25:51,872] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:25:51,875] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.028 seconds
+[2021-12-06 18:29:47,925] {processor.py:163} INFO - Started process (PID=20331) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:29:47,929] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:29:47,933] {logging_mixin.py:109} INFO - [2021-12-06 18:29:47,932] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:29:47,937] {logging_mixin.py:109} INFO - [2021-12-06 18:29:47,935] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:29:47,999] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:29:48,007] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.083 seconds
+[2021-12-06 18:34:44,016] {processor.py:163} INFO - Started process (PID=20390) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:34:44,017] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:34:44,021] {logging_mixin.py:109} INFO - [2021-12-06 18:34:44,021] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:34:44,052] {logging_mixin.py:109} INFO - [2021-12-06 18:34:44,040] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:34:44,214] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:34:44,219] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.203 seconds
+[2021-12-06 18:39:27,537] {processor.py:163} INFO - Started process (PID=20454) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:39:27,543] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:39:27,546] {logging_mixin.py:109} INFO - [2021-12-06 18:39:27,546] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:39:27,551] {logging_mixin.py:109} INFO - [2021-12-06 18:39:27,550] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:39:27,597] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:39:27,605] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.070 seconds
+[2021-12-06 18:44:17,846] {processor.py:163} INFO - Started process (PID=20518) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:44:17,847] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:44:17,849] {logging_mixin.py:109} INFO - [2021-12-06 18:44:17,849] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:44:17,855] {logging_mixin.py:109} INFO - [2021-12-06 18:44:17,851] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:44:17,989] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:44:18,000] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.155 seconds
+[2021-12-06 18:50:26,231] {processor.py:163} INFO - Started process (PID=20617) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:50:26,233] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-06 18:50:26,236] {logging_mixin.py:109} INFO - [2021-12-06 18:50:26,236] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:50:26,239] {logging_mixin.py:109} INFO - [2021-12-06 18:50:26,238] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py", line 8, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql'
+[2021-12-06 18:50:26,285] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-06 18:50:26,292] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.062 seconds

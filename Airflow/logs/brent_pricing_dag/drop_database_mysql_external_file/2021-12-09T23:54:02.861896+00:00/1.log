@@ -1,0 +1,26 @@
+[2021-12-09 18:54:24,211] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.drop_database_mysql_external_file manual__2021-12-09T23:54:02.861896+00:00 [queued]>
+[2021-12-09 18:54:24,217] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.drop_database_mysql_external_file manual__2021-12-09T23:54:02.861896+00:00 [queued]>
+[2021-12-09 18:54:24,217] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-09 18:54:24,217] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-12-09 18:54:24,217] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-09 18:54:24,230] {taskinstance.py:1262} INFO - Executing <Task(MySqlOperator): drop_database_mysql_external_file> on 2021-12-09 23:54:02.861896+00:00
+[2021-12-09 18:54:24,233] {standard_task_runner.py:52} INFO - Started process 33595 to run task
+[2021-12-09 18:54:24,240] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'brent_pricing_dag', 'drop_database_mysql_external_file', 'manual__2021-12-09T23:54:02.861896+00:00', '--job-id', '74', '--raw', '--subdir', 'DAGS_FOLDER/dag_brent_pricing.py', '--cfg-path', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmpjhi1vgbq', '--error-file', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmpnxcxn_2p']
+[2021-12-09 18:54:24,242] {standard_task_runner.py:77} INFO - Job 74: Subtask drop_database_mysql_external_file
+[2021-12-09 18:54:29,270] {logging_mixin.py:109} INFO - Running <TaskInstance: brent_pricing_dag.drop_database_mysql_external_file manual__2021-12-09T23:54:02.861896+00:00 [running]> on host zipcodes-MacBook-Pro-3.local
+[2021-12-09 18:54:34,310] {taskinstance.py:1427} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=keerthiballa@gmail.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=brent_pricing_dag
+AIRFLOW_CTX_TASK_ID=drop_database_mysql_external_file
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-09T23:54:02.861896+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-09T23:54:02.861896+00:00
+[2021-12-09 18:54:34,311] {mysql.py:79} INFO - Executing: drop schema if exists brent_pricing_db
+[2021-12-09 18:54:34,315] {base.py:70} INFO - Using connection to: id: mysql_default. Host: localhost, Port: None, Schema: , Login: ***mysqluser, Password: ***, extra: {}
+[2021-12-09 18:54:34,379] {dbapi.py:225} INFO - Running statement: drop schema if exists brent_pricing_db, parameters: None
+[2021-12-09 18:58:55,893] {dbapi.py:233} INFO - Rows affected: 5
+[2021-12-09 18:58:55,942] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=brent_pricing_dag, task_id=drop_database_mysql_external_file, execution_date=20211209T235402, start_date=20211209T235424, end_date=20211209T235855
+[2021-12-09 18:58:56,003] {local_task_job.py:154} INFO - Task exited with return code 0
+[2021-12-09 18:58:56,055] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

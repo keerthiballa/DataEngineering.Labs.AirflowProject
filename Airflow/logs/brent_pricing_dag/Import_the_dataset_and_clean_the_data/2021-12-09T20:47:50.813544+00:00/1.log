@@ -1,0 +1,26 @@
+[2021-12-09 15:48:41,762] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.Import_the_dataset_and_clean_the_data manual__2021-12-09T20:47:50.813544+00:00 [queued]>
+[2021-12-09 15:48:41,769] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.Import_the_dataset_and_clean_the_data manual__2021-12-09T20:47:50.813544+00:00 [queued]>
+[2021-12-09 15:48:41,769] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-09 15:48:41,769] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-12-09 15:48:41,769] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-09 15:48:41,782] {taskinstance.py:1262} INFO - Executing <Task(PythonOperator): Import_the_dataset_and_clean_the_data> on 2021-12-09 20:47:50.813544+00:00
+[2021-12-09 15:48:41,786] {standard_task_runner.py:52} INFO - Started process 31347 to run task
+[2021-12-09 15:48:41,792] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'brent_pricing_dag', 'Import_the_dataset_and_clean_the_data', 'manual__2021-12-09T20:47:50.813544+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/dag_brent_pricing.py', '--cfg-path', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmp0d9b00nn', '--error-file', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmpsh0er63k']
+[2021-12-09 15:48:41,795] {standard_task_runner.py:77} INFO - Job 66: Subtask Import_the_dataset_and_clean_the_data
+[2021-12-09 15:48:46,824] {logging_mixin.py:109} INFO - Running <TaskInstance: brent_pricing_dag.Import_the_dataset_and_clean_the_data manual__2021-12-09T20:47:50.813544+00:00 [running]> on host zipcodes-MacBook-Pro-3.local
+[2021-12-09 15:48:51,866] {taskinstance.py:1427} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=keerthiballa@gmail.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=brent_pricing_dag
+AIRFLOW_CTX_TASK_ID=Import_the_dataset_and_clean_the_data
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-09T20:47:50.813544+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-09T20:47:50.813544+00:00
+[2021-12-09 15:48:51,914] {logging_mixin.py:109} WARNING - /Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/pandas/util/_decorators.py:311 ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+[2021-12-09 15:48:53,391] {logging_mixin.py:109} WARNING - /Users/ballakeerthi/dev/airflow/dags/brent_ML_reg_models.py:44 FutureWarning: weekofyear and week have been deprecated, please use DatetimeIndex.isocalendar().week instead, which returns a Series.  To exactly reproduce the behavior of week and weekofyear and return an Index, you may call pd.Int64Index(idx.isocalendar().week)
+[2021-12-09 15:48:53,852] {logging_mixin.py:109} INFO - Table dataset_table created successfully,
+[2021-12-09 15:48:53,852] {python.py:152} INFO - Done. Returned value was: None
+[2021-12-09 15:48:53,858] {taskinstance.py:1270} INFO - Marking task as SUCCESS. dag_id=brent_pricing_dag, task_id=Import_the_dataset_and_clean_the_data, execution_date=20211209T204750, start_date=20211209T204841, end_date=20211209T204853
+[2021-12-09 15:48:53,906] {local_task_job.py:154} INFO - Task exited with return code 0
+[2021-12-09 15:48:53,929] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

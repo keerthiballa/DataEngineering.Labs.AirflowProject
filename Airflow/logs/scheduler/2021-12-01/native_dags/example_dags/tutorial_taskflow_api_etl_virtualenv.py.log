@@ -1,0 +1,352 @@
+[2021-11-30 21:59:12,651] {processor.py:163} INFO - Started process (PID=17446) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 21:59:12,660] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-30 21:59:12,661] {logging_mixin.py:109} INFO - [2021-11-30 21:59:12,661] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 21:59:12,702] {logging_mixin.py:109} INFO - [2021-11-30 21:59:12,692] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-30 21:59:12,722] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 21:59:12,725] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.075 seconds
+[2021-11-30 22:00:40,402] {processor.py:163} INFO - Started process (PID=17517) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:00:40,407] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-30 22:00:40,408] {logging_mixin.py:109} INFO - [2021-11-30 22:00:40,408] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:00:40,449] {logging_mixin.py:109} INFO - [2021-11-30 22:00:40,443] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-30 22:00:40,467] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:00:40,470] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.069 seconds
+[2021-11-30 22:01:31,800] {processor.py:163} INFO - Started process (PID=17540) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:01:31,801] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-30 22:01:31,802] {logging_mixin.py:109} INFO - [2021-11-30 22:01:31,801] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:01:31,843] {logging_mixin.py:109} INFO - [2021-11-30 22:01:31,833] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-30 22:01:31,862] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:01:31,866] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.066 seconds
+[2021-11-30 22:02:30,935] {processor.py:163} INFO - Started process (PID=17575) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:02:30,941] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-30 22:02:30,941] {logging_mixin.py:109} INFO - [2021-11-30 22:02:30,941] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:02:30,982] {logging_mixin.py:109} INFO - [2021-11-30 22:02:30,974] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-30 22:02:31,001] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:02:31,004] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.070 seconds
+[2021-11-30 22:03:26,092] {processor.py:163} INFO - Started process (PID=17607) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:03:26,098] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-30 22:03:26,099] {logging_mixin.py:109} INFO - [2021-11-30 22:03:26,099] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:03:26,138] {logging_mixin.py:109} INFO - [2021-11-30 22:03:26,129] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-30 22:03:26,161] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:03:26,166] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.074 seconds
+[2021-11-30 22:04:15,318] {processor.py:163} INFO - Started process (PID=17629) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:04:15,323] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-30 22:04:15,324] {logging_mixin.py:109} INFO - [2021-11-30 22:04:15,324] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:04:15,364] {logging_mixin.py:109} INFO - [2021-11-30 22:04:15,354] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-30 22:04:15,382] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:04:15,386] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.069 seconds
+[2021-11-30 22:05:05,172] {processor.py:163} INFO - Started process (PID=17670) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:05:05,178] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-30 22:05:05,178] {logging_mixin.py:109} INFO - [2021-11-30 22:05:05,178] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:05:05,202] {logging_mixin.py:109} INFO - [2021-11-30 22:05:05,196] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-30 22:05:05,219] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:05:05,222] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.050 seconds
+[2021-11-30 22:06:00,677] {processor.py:163} INFO - Started process (PID=17692) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:06:00,683] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-30 22:06:00,683] {logging_mixin.py:109} INFO - [2021-11-30 22:06:00,683] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:06:00,726] {logging_mixin.py:109} INFO - [2021-11-30 22:06:00,717] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-30 22:06:00,746] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:06:00,750] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.074 seconds
+[2021-11-30 22:07:05,144] {processor.py:163} INFO - Started process (PID=17718) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:07:05,150] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-30 22:07:05,150] {logging_mixin.py:109} INFO - [2021-11-30 22:07:05,150] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:07:05,183] {logging_mixin.py:109} INFO - [2021-11-30 22:07:05,173] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-30 22:07:05,208] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:07:05,213] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.069 seconds
+[2021-11-30 22:08:04,766] {processor.py:163} INFO - Started process (PID=17741) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:08:04,767] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-30 22:08:04,767] {logging_mixin.py:109} INFO - [2021-11-30 22:08:04,767] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:08:04,843] {logging_mixin.py:109} INFO - [2021-11-30 22:08:04,832] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-30 22:08:04,871] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:08:04,877] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.112 seconds
+[2021-11-30 22:09:15,613] {processor.py:163} INFO - Started process (PID=17769) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:09:15,613] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py for tasks to queue
+[2021-11-30 22:09:15,614] {logging_mixin.py:109} INFO - [2021-11-30 22:09:15,614] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:09:15,656] {logging_mixin.py:109} INFO - [2021-11-30 22:09:15,645] {dagbag.py:334} ERROR - Failed to import: /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 81, in <module>
+    tutorial_etl_dag = tutorial_taskflow_api_etl_virtualenv()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/dag.py", line 2977, in factory
+    f(**f_kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py", line 76, in tutorial_taskflow_api_etl_virtualenv
+    order_data = extract()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 219, in factory
+    op = decorated_operator_class(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/python_virtualenv.py", line 61, in __init__
+    super().__init__(kwargs_to_upstream=kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/decorators/base.py", line 131, in __init__
+    super().__init__(**kwargs_to_upstream, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 342, in __init__
+    raise AirflowException('PythonVirtualenvOperator requires virtualenv, please install it.')
+airflow.exceptions.AirflowException: PythonVirtualenvOperator requires virtualenv, please install it.
+[2021-11-30 22:09:15,676] {processor.py:639} WARNING - No viable dags retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py
+[2021-11-30 22:09:15,680] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py took 0.068 seconds

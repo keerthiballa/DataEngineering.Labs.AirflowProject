@@ -1,0 +1,77 @@
+[2021-11-30 21:59:21,255] {processor.py:163} INFO - Started process (PID=17450) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 21:59:21,256] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-11-30 21:59:21,257] {logging_mixin.py:109} INFO - [2021-11-30 21:59:21,257] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 21:59:21,294] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 21:59:21,310] {logging_mixin.py:109} INFO - [2021-11-30 21:59:21,310] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-30 21:59:21,316] {logging_mixin.py:109} INFO - [2021-11-30 21:59:21,316] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-11-30T02:59:21.316761+00:00
+[2021-11-30 21:59:21,322] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2021-11-30 22:00:47,035] {processor.py:163} INFO - Started process (PID=17520) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:00:47,037] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-11-30 22:00:47,038] {logging_mixin.py:109} INFO - [2021-11-30 22:00:47,038] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:00:47,069] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:00:47,083] {logging_mixin.py:109} INFO - [2021-11-30 22:00:47,083] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-30 22:00:47,089] {logging_mixin.py:109} INFO - [2021-11-30 22:00:47,089] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-11-30T03:00:47.089797+00:00
+[2021-11-30 22:00:47,098] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2021-11-30 22:01:39,190] {processor.py:163} INFO - Started process (PID=17544) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:01:39,191] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-11-30 22:01:39,191] {logging_mixin.py:109} INFO - [2021-11-30 22:01:39,191] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:01:39,223] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:01:39,237] {logging_mixin.py:109} INFO - [2021-11-30 22:01:39,237] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-30 22:01:39,246] {logging_mixin.py:109} INFO - [2021-11-30 22:01:39,245] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-11-30T03:01:39.245759+00:00
+[2021-11-30 22:01:39,252] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.062 seconds
+[2021-11-30 22:02:37,985] {processor.py:163} INFO - Started process (PID=17583) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:02:37,991] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-11-30 22:02:37,992] {logging_mixin.py:109} INFO - [2021-11-30 22:02:37,992] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:02:38,023] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:02:38,036] {logging_mixin.py:109} INFO - [2021-11-30 22:02:38,036] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-30 22:02:38,043] {logging_mixin.py:109} INFO - [2021-11-30 22:02:38,043] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-11-30T03:02:38.043033+00:00
+[2021-11-30 22:02:38,052] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.067 seconds
+[2021-11-30 22:03:33,961] {processor.py:163} INFO - Started process (PID=17611) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:03:33,962] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-11-30 22:03:33,962] {logging_mixin.py:109} INFO - [2021-11-30 22:03:33,962] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:03:33,996] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:03:34,010] {logging_mixin.py:109} INFO - [2021-11-30 22:03:34,010] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-30 22:03:34,018] {logging_mixin.py:109} INFO - [2021-11-30 22:03:34,018] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-11-30T03:03:34.018442+00:00
+[2021-11-30 22:03:34,024] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2021-11-30 22:04:22,532] {processor.py:163} INFO - Started process (PID=17633) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:04:22,538] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-11-30 22:04:22,539] {logging_mixin.py:109} INFO - [2021-11-30 22:04:22,539] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:04:22,571] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:04:22,584] {logging_mixin.py:109} INFO - [2021-11-30 22:04:22,584] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-30 22:04:22,591] {logging_mixin.py:109} INFO - [2021-11-30 22:04:22,590] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-11-30T03:04:22.590840+00:00
+[2021-11-30 22:04:22,601] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2021-11-30 22:05:13,291] {processor.py:163} INFO - Started process (PID=17673) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:05:13,297] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-11-30 22:05:13,298] {logging_mixin.py:109} INFO - [2021-11-30 22:05:13,298] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:05:13,332] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:05:13,346] {logging_mixin.py:109} INFO - [2021-11-30 22:05:13,346] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-30 22:05:13,353] {logging_mixin.py:109} INFO - [2021-11-30 22:05:13,353] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-11-30T03:05:13.353060+00:00
+[2021-11-30 22:05:13,361] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.071 seconds
+[2021-11-30 22:06:08,749] {processor.py:163} INFO - Started process (PID=17695) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:06:08,755] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-11-30 22:06:08,755] {logging_mixin.py:109} INFO - [2021-11-30 22:06:08,755] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:06:08,787] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:06:08,801] {logging_mixin.py:109} INFO - [2021-11-30 22:06:08,801] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-30 22:06:08,808] {logging_mixin.py:109} INFO - [2021-11-30 22:06:08,808] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-11-30T03:06:08.808720+00:00
+[2021-11-30 22:06:08,817] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2021-11-30 22:07:13,392] {processor.py:163} INFO - Started process (PID=17721) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:07:13,400] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-11-30 22:07:13,401] {logging_mixin.py:109} INFO - [2021-11-30 22:07:13,401] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:07:13,441] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:07:13,456] {logging_mixin.py:109} INFO - [2021-11-30 22:07:13,456] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-30 22:07:13,463] {logging_mixin.py:109} INFO - [2021-11-30 22:07:13,463] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-11-30T03:07:13.463023+00:00
+[2021-11-30 22:07:13,470] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.078 seconds
+[2021-11-30 22:08:18,937] {processor.py:163} INFO - Started process (PID=17744) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:08:18,943] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-11-30 22:08:18,943] {logging_mixin.py:109} INFO - [2021-11-30 22:08:18,943] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:08:19,070] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:08:19,098] {logging_mixin.py:109} INFO - [2021-11-30 22:08:19,098] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-30 22:08:19,127] {logging_mixin.py:109} INFO - [2021-11-30 22:08:19,127] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-11-30T03:08:19.127323+00:00
+[2021-11-30 22:08:19,150] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.213 seconds
+[2021-11-30 22:09:23,768] {processor.py:163} INFO - Started process (PID=17773) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:09:23,769] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-11-30 22:09:23,769] {logging_mixin.py:109} INFO - [2021-11-30 22:09:23,769] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:09:23,800] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-11-30 22:09:23,813] {logging_mixin.py:109} INFO - [2021-11-30 22:09:23,813] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-30 22:09:23,820] {logging_mixin.py:109} INFO - [2021-11-30 22:09:23,820] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-11-30T03:09:23.820240+00:00
+[2021-11-30 22:09:23,828] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds

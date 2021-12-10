@@ -1,0 +1,88 @@
+[2021-12-09 15:25:26,119] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.Split_the_dataset_into_training_and_test_sets manual__2021-12-09T20:22:55.310603+00:00 [queued]>
+[2021-12-09 15:25:26,127] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.Split_the_dataset_into_training_and_test_sets manual__2021-12-09T20:22:55.310603+00:00 [queued]>
+[2021-12-09 15:25:26,127] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-09 15:25:26,127] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2021-12-09 15:25:26,127] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-09 15:25:26,139] {taskinstance.py:1262} INFO - Executing <Task(PythonOperator): Split_the_dataset_into_training_and_test_sets> on 2021-12-09 20:22:55.310603+00:00
+[2021-12-09 15:25:26,143] {standard_task_runner.py:52} INFO - Started process 31094 to run task
+[2021-12-09 15:25:26,148] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'brent_pricing_dag', 'Split_the_dataset_into_training_and_test_sets', 'manual__2021-12-09T20:22:55.310603+00:00', '--job-id', '64', '--raw', '--subdir', 'DAGS_FOLDER/dag_brent_pricing.py', '--cfg-path', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmp0hfugsw0', '--error-file', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmp9m56vlmx']
+[2021-12-09 15:25:26,151] {standard_task_runner.py:77} INFO - Job 64: Subtask Split_the_dataset_into_training_and_test_sets
+[2021-12-09 15:25:31,177] {logging_mixin.py:109} INFO - Running <TaskInstance: brent_pricing_dag.Split_the_dataset_into_training_and_test_sets manual__2021-12-09T20:22:55.310603+00:00 [running]> on host zipcodes-MacBook-Pro-3.local
+[2021-12-09 15:25:36,217] {taskinstance.py:1427} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=keerthiballa@gmail.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=brent_pricing_dag
+AIRFLOW_CTX_TASK_ID=Split_the_dataset_into_training_and_test_sets
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-09T20:22:55.310603+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-09T20:22:55.310603+00:00
+[2021-12-09 15:25:36,245] {taskinstance.py:1703} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/pandas/io/sql.py", line 320, in read_sql_table
+    meta.reflect(only=[table_name], views=True)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/sqlalchemy/sql/schema.py", line 4610, in reflect
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: Could not reflect: requested table(s) not available in Engine(mysql+pymysql://airflowmysqluser:***@localhost/brent_pricing_db): (dataset_table)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1332, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1458, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    result = execute_callable(context=context)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/ballakeerthi/dev/airflow/dags/brent_ML_reg_models.py", line 127, in IV_DV_split
+    dataset = pd.read_sql_table(tableName, dbConnection)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/pandas/io/sql.py", line 322, in read_sql_table
+    raise ValueError(f"Table {table_name} not found") from err
+ValueError: Table dataset_table not found
+[2021-12-09 15:25:36,260] {taskinstance.py:1270} INFO - Marking task as FAILED. dag_id=brent_pricing_dag, task_id=Split_the_dataset_into_training_and_test_sets, execution_date=20211209T202255, start_date=20211209T202526, end_date=20211209T202536
+[2021-12-09 15:25:36,267] {standard_task_runner.py:88} ERROR - Failed to execute job 64 for task Split_the_dataset_into_training_and_test_sets
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/pandas/io/sql.py", line 320, in read_sql_table
+    meta.reflect(only=[table_name], views=True)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/sqlalchemy/sql/schema.py", line 4610, in reflect
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: Could not reflect: requested table(s) not available in Engine(mysql+pymysql://airflowmysqluser:***@localhost/brent_pricing_db): (dataset_table)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 292, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1332, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1458, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    result = execute_callable(context=context)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/ballakeerthi/dev/airflow/dags/brent_ML_reg_models.py", line 127, in IV_DV_split
+    dataset = pd.read_sql_table(tableName, dbConnection)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/pandas/io/sql.py", line 322, in read_sql_table
+    raise ValueError(f"Table {table_name} not found") from err
+ValueError: Table dataset_table not found
+[2021-12-09 15:25:36,286] {local_task_job.py:154} INFO - Task exited with return code 1
+[2021-12-09 15:25:36,309] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

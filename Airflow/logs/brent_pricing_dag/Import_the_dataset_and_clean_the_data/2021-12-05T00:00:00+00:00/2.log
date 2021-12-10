@@ -1,0 +1,297 @@
+[2021-12-06 11:34:04,407] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.Import_the_dataset_and_clean_the_data scheduled__2021-12-05T00:00:00+00:00 [queued]>
+[2021-12-06 11:34:04,415] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.Import_the_dataset_and_clean_the_data scheduled__2021-12-05T00:00:00+00:00 [queued]>
+[2021-12-06 11:34:04,415] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-06 11:34:04,415] {taskinstance.py:1242} INFO - Starting attempt 2 of 3
+[2021-12-06 11:34:04,415] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-06 11:34:04,423] {taskinstance.py:1262} INFO - Executing <Task(PythonOperator): Import_the_dataset_and_clean_the_data> on 2021-12-05 00:00:00+00:00
+[2021-12-06 11:34:04,426] {standard_task_runner.py:52} INFO - Started process 13013 to run task
+[2021-12-06 11:34:04,431] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'brent_pricing_dag', 'Import_the_dataset_and_clean_the_data', 'scheduled__2021-12-05T00:00:00+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/dag_brent_pricing.py', '--cfg-path', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmpjan3ro1z', '--error-file', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmp1r7v86r2']
+[2021-12-06 11:34:04,433] {standard_task_runner.py:77} INFO - Job 27: Subtask Import_the_dataset_and_clean_the_data
+[2021-12-06 11:34:09,464] {logging_mixin.py:109} INFO - Running <TaskInstance: brent_pricing_dag.Import_the_dataset_and_clean_the_data scheduled__2021-12-05T00:00:00+00:00 [running]> on host zipcodes-MacBook-Pro-3.local
+[2021-12-06 11:34:14,536] {taskinstance.py:1427} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=keerthiballa@gmail.com
+AIRFLOW_CTX_DAG_OWNER=kballa
+AIRFLOW_CTX_DAG_ID=brent_pricing_dag
+AIRFLOW_CTX_TASK_ID=Import_the_dataset_and_clean_the_data
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-05T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-05T00:00:00+00:00
+[2021-12-06 11:34:14,542] {logging_mixin.py:109} WARNING - /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/util/_decorators.py:311 ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+[2021-12-06 11:34:14,549] {taskinstance.py:1703} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1332, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1458, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    result = execute_callable(context=context)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/ballakeerthi/dev/airflow/dags/brent_ML_reg_models.py", line 11, in import_dataset
+    dataset=pd.read_csv('Europe_Brent_Spot_Price_FOB.csv', sep='delimiter', header=None, parse_dates=True)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/python_parser.py", line 96, in __init__
+    self._open_handles(f, kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'Europe_Brent_Spot_Price_FOB.csv'
+[2021-12-06 11:34:14,584] {taskinstance.py:1270} INFO - Marking task as UP_FOR_RETRY. dag_id=brent_pricing_dag, task_id=Import_the_dataset_and_clean_the_data, execution_date=20211205T000000, start_date=20211206T163404, end_date=20211206T163414
+[2021-12-06 11:34:14,604] {standard_task_runner.py:88} ERROR - Failed to execute job 27 for task Import_the_dataset_and_clean_the_data
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 292, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1332, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1458, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    result = execute_callable(context=context)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/ballakeerthi/dev/airflow/dags/brent_ML_reg_models.py", line 11, in import_dataset
+    dataset=pd.read_csv('Europe_Brent_Spot_Price_FOB.csv', sep='delimiter', header=None, parse_dates=True)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/python_parser.py", line 96, in __init__
+    self._open_handles(f, kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'Europe_Brent_Spot_Price_FOB.csv'
+[2021-12-06 11:34:14,656] {local_task_job.py:154} INFO - Task exited with return code 1
+[2021-12-06 11:34:14,686] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-12-06 12:06:19,855] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.Import_the_dataset_and_clean_the_data scheduled__2021-12-05T00:00:00+00:00 [queued]>
+[2021-12-06 12:06:19,870] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.Import_the_dataset_and_clean_the_data scheduled__2021-12-05T00:00:00+00:00 [queued]>
+[2021-12-06 12:06:19,870] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-06 12:06:19,870] {taskinstance.py:1242} INFO - Starting attempt 2 of 3
+[2021-12-06 12:06:19,870] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-06 12:06:19,885] {taskinstance.py:1262} INFO - Executing <Task(PythonOperator): Import_the_dataset_and_clean_the_data> on 2021-12-05 00:00:00+00:00
+[2021-12-06 12:06:19,895] {standard_task_runner.py:52} INFO - Started process 13497 to run task
+[2021-12-06 12:06:19,895] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'brent_pricing_dag', 'Import_the_dataset_and_clean_the_data', 'scheduled__2021-12-05T00:00:00+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/dag_brent_pricing.py', '--cfg-path', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmperp_odxh', '--error-file', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmpx1s59kbi']
+[2021-12-06 12:06:19,897] {standard_task_runner.py:77} INFO - Job 38: Subtask Import_the_dataset_and_clean_the_data
+[2021-12-06 12:06:24,938] {logging_mixin.py:109} INFO - Running <TaskInstance: brent_pricing_dag.Import_the_dataset_and_clean_the_data scheduled__2021-12-05T00:00:00+00:00 [running]> on host zipcodes-MacBook-Pro-3.local
+[2021-12-06 12:06:29,977] {taskinstance.py:1427} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=keerthiballa@gmail.com
+AIRFLOW_CTX_DAG_OWNER=kballa
+AIRFLOW_CTX_DAG_ID=brent_pricing_dag
+AIRFLOW_CTX_TASK_ID=Import_the_dataset_and_clean_the_data
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-05T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-05T00:00:00+00:00
+[2021-12-06 12:06:29,985] {logging_mixin.py:109} WARNING - /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/util/_decorators.py:311 ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+[2021-12-06 12:06:29,987] {taskinstance.py:1703} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1332, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1458, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    result = execute_callable(context=context)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/ballakeerthi/dev/airflow/dags/brent_ML_reg_models.py", line 11, in import_dataset
+    dataset=pd.read_csv('Europe_Brent_Spot_Price_FOB.csv', sep='delimiter', header=None, parse_dates=True)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/python_parser.py", line 96, in __init__
+    self._open_handles(f, kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'Europe_Brent_Spot_Price_FOB.csv'
+[2021-12-06 12:06:30,003] {taskinstance.py:1270} INFO - Marking task as UP_FOR_RETRY. dag_id=brent_pricing_dag, task_id=Import_the_dataset_and_clean_the_data, execution_date=20211205T000000, start_date=20211206T170619, end_date=20211206T170630
+[2021-12-06 12:06:30,013] {standard_task_runner.py:88} ERROR - Failed to execute job 38 for task Import_the_dataset_and_clean_the_data
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 292, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1332, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1458, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    result = execute_callable(context=context)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/ballakeerthi/dev/airflow/dags/brent_ML_reg_models.py", line 11, in import_dataset
+    dataset=pd.read_csv('Europe_Brent_Spot_Price_FOB.csv', sep='delimiter', header=None, parse_dates=True)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/python_parser.py", line 96, in __init__
+    self._open_handles(f, kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'Europe_Brent_Spot_Price_FOB.csv'
+[2021-12-06 12:06:30,063] {local_task_job.py:154} INFO - Task exited with return code 1
+[2021-12-06 12:06:30,112] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-12-06 12:37:13,201] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.Import_the_dataset_and_clean_the_data scheduled__2021-12-05T00:00:00+00:00 [queued]>
+[2021-12-06 12:37:13,209] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.Import_the_dataset_and_clean_the_data scheduled__2021-12-05T00:00:00+00:00 [queued]>
+[2021-12-06 12:37:13,209] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-06 12:37:13,209] {taskinstance.py:1242} INFO - Starting attempt 2 of 3
+[2021-12-06 12:37:13,209] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-06 12:37:13,220] {taskinstance.py:1262} INFO - Executing <Task(PythonOperator): Import_the_dataset_and_clean_the_data> on 2021-12-05 00:00:00+00:00
+[2021-12-06 12:37:13,223] {standard_task_runner.py:52} INFO - Started process 14113 to run task
+[2021-12-06 12:37:13,227] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'brent_pricing_dag', 'Import_the_dataset_and_clean_the_data', 'scheduled__2021-12-05T00:00:00+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/dag_brent_pricing.py', '--cfg-path', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmp7tlh3s6e', '--error-file', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmpcpr6i0cm']
+[2021-12-06 12:37:13,231] {standard_task_runner.py:77} INFO - Job 42: Subtask Import_the_dataset_and_clean_the_data
+[2021-12-06 12:37:18,289] {logging_mixin.py:109} INFO - Running <TaskInstance: brent_pricing_dag.Import_the_dataset_and_clean_the_data scheduled__2021-12-05T00:00:00+00:00 [running]> on host zipcodes-MacBook-Pro-3.local
+[2021-12-06 12:37:23,319] {taskinstance.py:1427} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=keerthiballa@gmail.com
+AIRFLOW_CTX_DAG_OWNER=kballa
+AIRFLOW_CTX_DAG_ID=brent_pricing_dag
+AIRFLOW_CTX_TASK_ID=Import_the_dataset_and_clean_the_data
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-05T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-05T00:00:00+00:00
+[2021-12-06 12:37:23,327] {logging_mixin.py:109} WARNING - /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/util/_decorators.py:311 ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+[2021-12-06 12:37:23,329] {taskinstance.py:1703} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1332, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1458, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    result = execute_callable(context=context)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/ballakeerthi/dev/airflow/dags/brent_ML_reg_models.py", line 11, in import_dataset
+    dataset=pd.read_csv('Europe_Brent_Spot_Price_FOB.csv', sep='delimiter', header=None, parse_dates=True)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/python_parser.py", line 96, in __init__
+    self._open_handles(f, kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'Europe_Brent_Spot_Price_FOB.csv'
+[2021-12-06 12:37:23,344] {taskinstance.py:1270} INFO - Marking task as UP_FOR_RETRY. dag_id=brent_pricing_dag, task_id=Import_the_dataset_and_clean_the_data, execution_date=20211205T000000, start_date=20211206T173713, end_date=20211206T173723
+[2021-12-06 12:37:23,356] {standard_task_runner.py:88} ERROR - Failed to execute job 42 for task Import_the_dataset_and_clean_the_data
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 292, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1332, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1458, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    result = execute_callable(context=context)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/ballakeerthi/dev/airflow/dags/brent_ML_reg_models.py", line 11, in import_dataset
+    dataset=pd.read_csv('Europe_Brent_Spot_Price_FOB.csv', sep='delimiter', header=None, parse_dates=True)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/python_parser.py", line 96, in __init__
+    self._open_handles(f, kwds)
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py", line 222, in _open_handles
+    self.handles = get_handle(
+  File "/Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/pandas/io/common.py", line 702, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'Europe_Brent_Spot_Price_FOB.csv'
+[2021-12-06 12:37:23,379] {local_task_job.py:154} INFO - Task exited with return code 1
+[2021-12-06 12:37:23,443] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

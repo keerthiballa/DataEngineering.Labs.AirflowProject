@@ -1,0 +1,90 @@
+[2021-12-09 14:48:18,513] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.drop_database_mysql_external_file manual__2021-12-09T19:41:43.536834+00:00 [queued]>
+[2021-12-09 14:48:18,520] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: brent_pricing_dag.drop_database_mysql_external_file manual__2021-12-09T19:41:43.536834+00:00 [queued]>
+[2021-12-09 14:48:18,520] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-09 14:48:18,520] {taskinstance.py:1242} INFO - Starting attempt 1 of 3
+[2021-12-09 14:48:18,520] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-09 14:48:18,533] {taskinstance.py:1262} INFO - Executing <Task(MySqlOperator): drop_database_mysql_external_file> on 2021-12-09 19:41:43.536834+00:00
+[2021-12-09 14:48:18,538] {standard_task_runner.py:52} INFO - Started process 30662 to run task
+[2021-12-09 14:48:18,544] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'brent_pricing_dag', 'drop_database_mysql_external_file', 'manual__2021-12-09T19:41:43.536834+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/dag_brent_pricing.py', '--cfg-path', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmpyaz9dudt', '--error-file', '/var/folders/b3/j_ybgjv53p33dy62wlktdr4m0000gp/T/tmpc74kz80o']
+[2021-12-09 14:48:18,546] {standard_task_runner.py:77} INFO - Job 56: Subtask drop_database_mysql_external_file
+[2021-12-09 14:48:23,585] {logging_mixin.py:109} INFO - Running <TaskInstance: brent_pricing_dag.drop_database_mysql_external_file manual__2021-12-09T19:41:43.536834+00:00 [running]> on host zipcodes-MacBook-Pro-3.local
+[2021-12-09 14:48:28,627] {taskinstance.py:1427} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=keerthiballa@gmail.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=brent_pricing_dag
+AIRFLOW_CTX_TASK_ID=drop_database_mysql_external_file
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-09T19:41:43.536834+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-09T19:41:43.536834+00:00
+[2021-12-09 14:48:28,628] {mysql.py:79} INFO - Executing: drop schema if exists brent_pricing_db
+[2021-12-09 14:48:28,632] {base.py:70} INFO - Using connection to: id: mysql_default. Host: mysql, Port: None, Schema: airflow, Login: root, Password: None, extra: {}
+[2021-12-09 14:48:28,638] {taskinstance.py:1703} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/MySQLdb/__init__.py", line 18, in <module>
+    from . import _mysql
+ImportError: dlopen(/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/MySQLdb/_mysql.cpython-39-darwin.so, 2): Library not loaded: @rpath/libmysqlclient.21.dylib
+  Referenced from: /Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/MySQLdb/_mysql.cpython-39-darwin.so
+  Reason: image not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1332, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1458, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    result = execute_callable(context=context)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/providers/mysql/operators/mysql.py", line 81, in execute
+    hook.run(self.sql, autocommit=self.autocommit, parameters=self.parameters)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/hooks/dbapi.py", line 198, in run
+    with closing(self.get_conn()) as conn:
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/providers/mysql/hooks/mysql.py", line 168, in get_conn
+    import MySQLdb
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/MySQLdb/__init__.py", line 24, in <module>
+    version_info, _mysql.version_info, _mysql.__file__
+NameError: name '_mysql' is not defined
+[2021-12-09 14:48:28,651] {taskinstance.py:1270} INFO - Marking task as FAILED. dag_id=brent_pricing_dag, task_id=drop_database_mysql_external_file, execution_date=20211209T194143, start_date=20211209T194818, end_date=20211209T194828
+[2021-12-09 14:48:28,659] {standard_task_runner.py:88} ERROR - Failed to execute job 56 for task drop_database_mysql_external_file
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/MySQLdb/__init__.py", line 18, in <module>
+    from . import _mysql
+ImportError: dlopen(/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/MySQLdb/_mysql.cpython-39-darwin.so, 2): Library not loaded: @rpath/libmysqlclient.21.dylib
+  Referenced from: /Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/MySQLdb/_mysql.cpython-39-darwin.so
+  Reason: image not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 292, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/cli/commands/task_command.py", line 180, in _run_raw_task
+    ti._run_raw_task(
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1332, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1458, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1514, in _execute_task
+    result = execute_callable(context=context)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/providers/mysql/operators/mysql.py", line 81, in execute
+    hook.run(self.sql, autocommit=self.autocommit, parameters=self.parameters)
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/hooks/dbapi.py", line 198, in run
+    with closing(self.get_conn()) as conn:
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/airflow/providers/mysql/hooks/mysql.py", line 168, in get_conn
+    import MySQLdb
+  File "/Users/ballakeerthi/dev/Airflow/venv/lib/python3.9/site-packages/MySQLdb/__init__.py", line 24, in <module>
+    version_info, _mysql.version_info, _mysql.__file__
+NameError: name '_mysql' is not defined
+[2021-12-09 14:48:28,696] {local_task_job.py:154} INFO - Task exited with return code 1
+[2021-12-09 14:48:28,723] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

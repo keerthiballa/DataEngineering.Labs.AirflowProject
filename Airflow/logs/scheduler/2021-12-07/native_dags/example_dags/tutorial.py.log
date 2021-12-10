@@ -1,0 +1,539 @@
+[2021-12-07 10:54:53,839] {processor.py:163} INFO - Started process (PID=2675) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 10:54:53,840] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 10:54:53,843] {logging_mixin.py:109} INFO - [2021-12-07 10:54:53,843] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 10:54:54,157] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 10:54:54,198] {logging_mixin.py:109} INFO - [2021-12-07 10:54:54,197] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 10:54:54,227] {logging_mixin.py:109} INFO - [2021-12-07 10:54:54,227] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T15:54:54.227550+00:00
+[2021-12-07 10:54:54,238] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.399 seconds
+[2021-12-07 10:57:14,951] {processor.py:163} INFO - Started process (PID=2738) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 10:57:14,956] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 10:57:14,958] {logging_mixin.py:109} INFO - [2021-12-07 10:57:14,958] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 10:57:14,986] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 10:57:14,999] {logging_mixin.py:109} INFO - [2021-12-07 10:57:14,999] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 10:57:15,007] {logging_mixin.py:109} INFO - [2021-12-07 10:57:15,007] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T15:57:15.007787+00:00
+[2021-12-07 10:57:15,018] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.068 seconds
+[2021-12-07 10:58:38,152] {processor.py:163} INFO - Started process (PID=2953) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 10:58:38,154] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 10:58:38,156] {logging_mixin.py:109} INFO - [2021-12-07 10:58:38,156] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 10:58:38,194] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 10:58:38,213] {logging_mixin.py:109} INFO - [2021-12-07 10:58:38,213] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 10:58:38,224] {logging_mixin.py:109} INFO - [2021-12-07 10:58:38,224] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T15:58:38.224289+00:00
+[2021-12-07 10:58:38,231] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.079 seconds
+[2021-12-07 11:00:06,371] {processor.py:163} INFO - Started process (PID=3049) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:00:06,374] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:00:06,379] {logging_mixin.py:109} INFO - [2021-12-07 11:00:06,379] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:00:06,429] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:00:06,449] {logging_mixin.py:109} INFO - [2021-12-07 11:00:06,449] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:00:06,460] {logging_mixin.py:109} INFO - [2021-12-07 11:00:06,460] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:00:06.459939+00:00
+[2021-12-07 11:00:06,470] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.099 seconds
+[2021-12-07 11:01:13,137] {processor.py:163} INFO - Started process (PID=3234) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:01:13,138] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:01:13,142] {logging_mixin.py:109} INFO - [2021-12-07 11:01:13,142] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:01:13,386] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:01:13,432] {logging_mixin.py:109} INFO - [2021-12-07 11:01:13,432] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:01:13,459] {logging_mixin.py:109} INFO - [2021-12-07 11:01:13,459] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:01:13.459553+00:00
+[2021-12-07 11:01:13,483] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.347 seconds
+[2021-12-07 11:03:05,439] {processor.py:163} INFO - Started process (PID=3379) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:03:05,440] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:03:05,441] {logging_mixin.py:109} INFO - [2021-12-07 11:03:05,441] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:03:05,470] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:03:05,483] {logging_mixin.py:109} INFO - [2021-12-07 11:03:05,483] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:03:05,492] {logging_mixin.py:109} INFO - [2021-12-07 11:03:05,492] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:03:05.491984+00:00
+[2021-12-07 11:03:05,498] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.059 seconds
+[2021-12-07 11:04:30,314] {processor.py:163} INFO - Started process (PID=3492) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:04:30,314] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:04:30,316] {logging_mixin.py:109} INFO - [2021-12-07 11:04:30,316] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:04:30,344] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:04:30,358] {logging_mixin.py:109} INFO - [2021-12-07 11:04:30,358] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:04:30,368] {logging_mixin.py:109} INFO - [2021-12-07 11:04:30,368] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:04:30.367944+00:00
+[2021-12-07 11:04:30,374] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.060 seconds
+[2021-12-07 11:05:39,700] {processor.py:163} INFO - Started process (PID=3522) to work on /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:05:39,706] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:05:39,709] {logging_mixin.py:109} INFO - [2021-12-07 11:05:39,709] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:05:39,741] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:05:39,758] {logging_mixin.py:109} INFO - [2021-12-07 11:05:39,758] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:05:39,767] {logging_mixin.py:109} INFO - [2021-12-07 11:05:39,767] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:05:39.767049+00:00
+[2021-12-07 11:05:39,777] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/envs/airflow/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.078 seconds
+[2021-12-07 11:08:08,047] {processor.py:163} INFO - Started process (PID=3575) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:08:08,048] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:08:08,048] {logging_mixin.py:109} INFO - [2021-12-07 11:08:08,048] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:08:08,097] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:08:08,348] {logging_mixin.py:109} INFO - [2021-12-07 11:08:08,348] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:08:08,359] {logging_mixin.py:109} INFO - [2021-12-07 11:08:08,359] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:08:08.358967+00:00
+[2021-12-07 11:08:08,368] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.323 seconds
+[2021-12-07 11:10:19,607] {processor.py:163} INFO - Started process (PID=3663) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:10:19,610] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:10:19,610] {logging_mixin.py:109} INFO - [2021-12-07 11:10:19,610] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:10:19,645] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:10:19,663] {logging_mixin.py:109} INFO - [2021-12-07 11:10:19,663] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:10:19,673] {logging_mixin.py:109} INFO - [2021-12-07 11:10:19,672] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:10:19.672847+00:00
+[2021-12-07 11:10:19,682] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.076 seconds
+[2021-12-07 11:11:52,103] {processor.py:163} INFO - Started process (PID=3732) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:11:52,109] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:11:52,109] {logging_mixin.py:109} INFO - [2021-12-07 11:11:52,109] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:11:52,141] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:11:52,156] {logging_mixin.py:109} INFO - [2021-12-07 11:11:52,156] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:11:52,164] {logging_mixin.py:109} INFO - [2021-12-07 11:11:52,164] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:11:52.163999+00:00
+[2021-12-07 11:11:52,172] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2021-12-07 11:13:14,258] {processor.py:163} INFO - Started process (PID=3790) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:13:14,264] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:13:14,265] {logging_mixin.py:109} INFO - [2021-12-07 11:13:14,265] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:13:14,297] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:13:14,311] {logging_mixin.py:109} INFO - [2021-12-07 11:13:14,311] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:13:14,321] {logging_mixin.py:109} INFO - [2021-12-07 11:13:14,321] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:13:14.321019+00:00
+[2021-12-07 11:13:14,329] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.071 seconds
+[2021-12-07 11:14:37,061] {processor.py:163} INFO - Started process (PID=3853) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:14:37,066] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:14:37,067] {logging_mixin.py:109} INFO - [2021-12-07 11:14:37,067] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:14:37,099] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:14:37,113] {logging_mixin.py:109} INFO - [2021-12-07 11:14:37,113] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:14:37,121] {logging_mixin.py:109} INFO - [2021-12-07 11:14:37,121] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:14:37.121101+00:00
+[2021-12-07 11:14:37,129] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2021-12-07 11:15:59,817] {processor.py:163} INFO - Started process (PID=3912) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:15:59,822] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:15:59,823] {logging_mixin.py:109} INFO - [2021-12-07 11:15:59,823] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:15:59,851] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:15:59,865] {logging_mixin.py:109} INFO - [2021-12-07 11:15:59,865] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:15:59,874] {logging_mixin.py:109} INFO - [2021-12-07 11:15:59,874] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:15:59.873881+00:00
+[2021-12-07 11:15:59,882] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2021-12-07 11:17:17,463] {processor.py:163} INFO - Started process (PID=3967) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:17:17,467] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:17:17,467] {logging_mixin.py:109} INFO - [2021-12-07 11:17:17,467] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:17:17,499] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:17:17,517] {logging_mixin.py:109} INFO - [2021-12-07 11:17:17,517] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:17:17,527] {logging_mixin.py:109} INFO - [2021-12-07 11:17:17,527] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:17:17.527067+00:00
+[2021-12-07 11:17:17,535] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.073 seconds
+[2021-12-07 11:18:34,133] {processor.py:163} INFO - Started process (PID=4021) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:18:34,139] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:18:34,139] {logging_mixin.py:109} INFO - [2021-12-07 11:18:34,139] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:18:34,168] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:18:34,181] {logging_mixin.py:109} INFO - [2021-12-07 11:18:34,181] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:18:34,189] {logging_mixin.py:109} INFO - [2021-12-07 11:18:34,189] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:18:34.189566+00:00
+[2021-12-07 11:18:34,197] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2021-12-07 11:19:51,473] {processor.py:163} INFO - Started process (PID=4077) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:19:51,479] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:19:51,480] {logging_mixin.py:109} INFO - [2021-12-07 11:19:51,480] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:19:51,511] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:19:51,525] {logging_mixin.py:109} INFO - [2021-12-07 11:19:51,525] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:19:51,533] {logging_mixin.py:109} INFO - [2021-12-07 11:19:51,533] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:19:51.533394+00:00
+[2021-12-07 11:19:51,542] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2021-12-07 11:21:22,746] {processor.py:163} INFO - Started process (PID=4165) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:21:22,747] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:21:22,747] {logging_mixin.py:109} INFO - [2021-12-07 11:21:22,747] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:21:22,784] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:21:22,803] {logging_mixin.py:109} INFO - [2021-12-07 11:21:22,802] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:21:22,814] {logging_mixin.py:109} INFO - [2021-12-07 11:21:22,813] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:21:22.813821+00:00
+[2021-12-07 11:21:22,823] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.077 seconds
+[2021-12-07 11:22:45,812] {processor.py:163} INFO - Started process (PID=4237) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:22:45,812] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:22:45,813] {logging_mixin.py:109} INFO - [2021-12-07 11:22:45,813] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:22:45,846] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:22:45,862] {logging_mixin.py:109} INFO - [2021-12-07 11:22:45,862] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:22:45,872] {logging_mixin.py:109} INFO - [2021-12-07 11:22:45,872] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:22:45.872175+00:00
+[2021-12-07 11:22:45,882] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.070 seconds
+[2021-12-07 11:24:06,365] {processor.py:163} INFO - Started process (PID=4299) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:24:06,366] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:24:06,366] {logging_mixin.py:109} INFO - [2021-12-07 11:24:06,366] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:24:06,404] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:24:06,421] {logging_mixin.py:109} INFO - [2021-12-07 11:24:06,421] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:24:06,432] {logging_mixin.py:109} INFO - [2021-12-07 11:24:06,432] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:24:06.432266+00:00
+[2021-12-07 11:24:06,442] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.077 seconds
+[2021-12-07 11:25:31,217] {processor.py:163} INFO - Started process (PID=4359) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:25:31,217] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:25:31,218] {logging_mixin.py:109} INFO - [2021-12-07 11:25:31,217] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:25:31,249] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:25:31,263] {logging_mixin.py:109} INFO - [2021-12-07 11:25:31,263] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:25:31,271] {logging_mixin.py:109} INFO - [2021-12-07 11:25:31,271] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:25:31.271055+00:00
+[2021-12-07 11:25:31,277] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds
+[2021-12-07 11:26:59,305] {processor.py:163} INFO - Started process (PID=4418) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:26:59,306] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:26:59,306] {logging_mixin.py:109} INFO - [2021-12-07 11:26:59,306] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:26:59,342] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:26:59,359] {logging_mixin.py:109} INFO - [2021-12-07 11:26:59,359] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:26:59,369] {logging_mixin.py:109} INFO - [2021-12-07 11:26:59,369] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:26:59.368867+00:00
+[2021-12-07 11:26:59,375] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.070 seconds
+[2021-12-07 11:28:21,241] {processor.py:163} INFO - Started process (PID=4485) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:28:21,242] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:28:21,242] {logging_mixin.py:109} INFO - [2021-12-07 11:28:21,242] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:28:21,276] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:28:21,293] {logging_mixin.py:109} INFO - [2021-12-07 11:28:21,293] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:28:21,302] {logging_mixin.py:109} INFO - [2021-12-07 11:28:21,302] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:28:21.302493+00:00
+[2021-12-07 11:28:21,311] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.070 seconds
+[2021-12-07 11:30:00,442] {processor.py:163} INFO - Started process (PID=4655) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:30:00,442] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:30:00,443] {logging_mixin.py:109} INFO - [2021-12-07 11:30:00,443] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:30:00,475] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:30:00,488] {logging_mixin.py:109} INFO - [2021-12-07 11:30:00,488] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:30:00,496] {logging_mixin.py:109} INFO - [2021-12-07 11:30:00,496] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:30:00.496338+00:00
+[2021-12-07 11:30:00,502] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.060 seconds
+[2021-12-07 11:31:39,286] {processor.py:163} INFO - Started process (PID=4737) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:31:39,286] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:31:39,286] {logging_mixin.py:109} INFO - [2021-12-07 11:31:39,286] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:31:39,323] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:31:39,352] {logging_mixin.py:109} INFO - [2021-12-07 11:31:39,352] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:31:39,361] {logging_mixin.py:109} INFO - [2021-12-07 11:31:39,361] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:31:39.361453+00:00
+[2021-12-07 11:31:39,368] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.083 seconds
+[2021-12-07 11:33:34,234] {processor.py:163} INFO - Started process (PID=4822) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:33:34,240] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:33:34,240] {logging_mixin.py:109} INFO - [2021-12-07 11:33:34,240] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:33:34,273] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:33:34,288] {logging_mixin.py:109} INFO - [2021-12-07 11:33:34,287] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:33:34,297] {logging_mixin.py:109} INFO - [2021-12-07 11:33:34,297] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:33:34.296949+00:00
+[2021-12-07 11:33:34,308] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2021-12-07 11:35:12,904] {processor.py:163} INFO - Started process (PID=4893) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:35:12,910] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:35:12,910] {logging_mixin.py:109} INFO - [2021-12-07 11:35:12,910] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:35:12,944] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:35:12,958] {logging_mixin.py:109} INFO - [2021-12-07 11:35:12,958] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:35:12,970] {logging_mixin.py:109} INFO - [2021-12-07 11:35:12,970] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:35:12.969953+00:00
+[2021-12-07 11:35:12,979] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2021-12-07 11:36:46,414] {processor.py:163} INFO - Started process (PID=4949) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:36:46,414] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:36:46,415] {logging_mixin.py:109} INFO - [2021-12-07 11:36:46,415] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:36:46,453] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:36:46,469] {logging_mixin.py:109} INFO - [2021-12-07 11:36:46,469] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:36:46,483] {logging_mixin.py:109} INFO - [2021-12-07 11:36:46,482] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:36:46.482712+00:00
+[2021-12-07 11:36:46,492] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.079 seconds
+[2021-12-07 11:38:37,871] {processor.py:163} INFO - Started process (PID=5023) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:38:37,871] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:38:37,872] {logging_mixin.py:109} INFO - [2021-12-07 11:38:37,872] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:38:37,904] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:38:37,922] {logging_mixin.py:109} INFO - [2021-12-07 11:38:37,922] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:38:37,931] {logging_mixin.py:109} INFO - [2021-12-07 11:38:37,931] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:38:37.931349+00:00
+[2021-12-07 11:38:37,940] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.070 seconds
+[2021-12-07 11:40:01,928] {processor.py:163} INFO - Started process (PID=5079) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:40:01,930] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:40:01,932] {logging_mixin.py:109} INFO - [2021-12-07 11:40:01,932] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:40:01,966] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:40:01,983] {logging_mixin.py:109} INFO - [2021-12-07 11:40:01,983] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:40:01,991] {logging_mixin.py:109} INFO - [2021-12-07 11:40:01,991] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:40:01.991146+00:00
+[2021-12-07 11:40:02,000] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.073 seconds
+[2021-12-07 11:41:33,824] {processor.py:163} INFO - Started process (PID=5134) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:41:33,824] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:41:33,825] {logging_mixin.py:109} INFO - [2021-12-07 11:41:33,825] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:41:33,955] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:41:33,989] {logging_mixin.py:109} INFO - [2021-12-07 11:41:33,989] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:41:34,017] {logging_mixin.py:109} INFO - [2021-12-07 11:41:34,017] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:41:34.016612+00:00
+[2021-12-07 11:41:34,031] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.209 seconds
+[2021-12-07 11:43:10,180] {processor.py:163} INFO - Started process (PID=5190) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:43:10,186] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:43:10,187] {logging_mixin.py:109} INFO - [2021-12-07 11:43:10,187] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:43:10,227] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:43:10,248] {logging_mixin.py:109} INFO - [2021-12-07 11:43:10,247] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:43:10,256] {logging_mixin.py:109} INFO - [2021-12-07 11:43:10,256] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:43:10.256216+00:00
+[2021-12-07 11:43:10,267] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.087 seconds
+[2021-12-07 11:44:40,247] {processor.py:163} INFO - Started process (PID=5248) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:44:40,253] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:44:40,254] {logging_mixin.py:109} INFO - [2021-12-07 11:44:40,254] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:44:40,288] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:44:40,302] {logging_mixin.py:109} INFO - [2021-12-07 11:44:40,302] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:44:40,311] {logging_mixin.py:109} INFO - [2021-12-07 11:44:40,311] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:44:40.311211+00:00
+[2021-12-07 11:44:40,325] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.078 seconds
+[2021-12-07 11:46:04,000] {processor.py:163} INFO - Started process (PID=5305) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:46:04,001] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:46:04,001] {logging_mixin.py:109} INFO - [2021-12-07 11:46:04,001] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:46:04,029] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:46:04,044] {logging_mixin.py:109} INFO - [2021-12-07 11:46:04,044] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:46:04,053] {logging_mixin.py:109} INFO - [2021-12-07 11:46:04,053] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:46:04.052937+00:00
+[2021-12-07 11:46:04,062] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.063 seconds
+[2021-12-07 11:47:46,571] {processor.py:163} INFO - Started process (PID=5369) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:47:46,572] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:47:46,572] {logging_mixin.py:109} INFO - [2021-12-07 11:47:46,572] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:47:46,610] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:47:46,631] {logging_mixin.py:109} INFO - [2021-12-07 11:47:46,631] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:47:46,651] {logging_mixin.py:109} INFO - [2021-12-07 11:47:46,651] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:47:46.651079+00:00
+[2021-12-07 11:47:46,670] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.099 seconds
+[2021-12-07 11:49:36,325] {processor.py:163} INFO - Started process (PID=5440) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:49:36,327] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:49:36,327] {logging_mixin.py:109} INFO - [2021-12-07 11:49:36,327] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:49:36,379] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:49:36,397] {logging_mixin.py:109} INFO - [2021-12-07 11:49:36,397] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:49:36,409] {logging_mixin.py:109} INFO - [2021-12-07 11:49:36,409] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:49:36.409115+00:00
+[2021-12-07 11:49:36,420] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.096 seconds
+[2021-12-07 11:51:49,699] {processor.py:163} INFO - Started process (PID=5521) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:51:49,705] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:51:49,705] {logging_mixin.py:109} INFO - [2021-12-07 11:51:49,705] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:51:49,741] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:51:49,756] {logging_mixin.py:109} INFO - [2021-12-07 11:51:49,756] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:51:49,769] {logging_mixin.py:109} INFO - [2021-12-07 11:51:49,769] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:51:49.769467+00:00
+[2021-12-07 11:51:49,787] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.089 seconds
+[2021-12-07 11:53:35,715] {processor.py:163} INFO - Started process (PID=5585) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:53:35,721] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:53:35,722] {logging_mixin.py:109} INFO - [2021-12-07 11:53:35,722] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:53:35,754] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:53:35,769] {logging_mixin.py:109} INFO - [2021-12-07 11:53:35,769] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:53:35,778] {logging_mixin.py:109} INFO - [2021-12-07 11:53:35,778] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:53:35.777987+00:00
+[2021-12-07 11:53:35,786] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.072 seconds
+[2021-12-07 11:54:56,180] {processor.py:163} INFO - Started process (PID=5638) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:54:56,186] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:54:56,187] {logging_mixin.py:109} INFO - [2021-12-07 11:54:56,187] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:54:56,217] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:54:56,239] {logging_mixin.py:109} INFO - [2021-12-07 11:54:56,239] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:54:56,247] {logging_mixin.py:109} INFO - [2021-12-07 11:54:56,247] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:54:56.247601+00:00
+[2021-12-07 11:54:56,257] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.077 seconds
+[2021-12-07 11:56:25,168] {processor.py:163} INFO - Started process (PID=5716) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:56:25,170] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:56:25,171] {logging_mixin.py:109} INFO - [2021-12-07 11:56:25,171] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:56:25,202] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:56:25,218] {logging_mixin.py:109} INFO - [2021-12-07 11:56:25,218] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:56:25,229] {logging_mixin.py:109} INFO - [2021-12-07 11:56:25,229] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:56:25.228804+00:00
+[2021-12-07 11:56:25,236] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.068 seconds
+[2021-12-07 11:57:48,738] {processor.py:163} INFO - Started process (PID=5772) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:57:48,739] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:57:48,740] {logging_mixin.py:109} INFO - [2021-12-07 11:57:48,740] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:57:48,772] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:57:48,787] {logging_mixin.py:109} INFO - [2021-12-07 11:57:48,787] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:57:48,795] {logging_mixin.py:109} INFO - [2021-12-07 11:57:48,795] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:57:48.795617+00:00
+[2021-12-07 11:57:48,805] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.067 seconds
+[2021-12-07 11:59:21,249] {processor.py:163} INFO - Started process (PID=5840) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:59:21,250] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 11:59:21,250] {logging_mixin.py:109} INFO - [2021-12-07 11:59:21,250] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:59:21,311] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 11:59:21,340] {logging_mixin.py:109} INFO - [2021-12-07 11:59:21,339] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 11:59:21,355] {logging_mixin.py:109} INFO - [2021-12-07 11:59:21,355] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T16:59:21.355646+00:00
+[2021-12-07 11:59:21,366] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.117 seconds
+[2021-12-07 12:00:48,263] {processor.py:163} INFO - Started process (PID=5899) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:00:48,269] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:00:48,270] {logging_mixin.py:109} INFO - [2021-12-07 12:00:48,269] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:00:48,298] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:00:48,313] {logging_mixin.py:109} INFO - [2021-12-07 12:00:48,313] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:00:48,327] {logging_mixin.py:109} INFO - [2021-12-07 12:00:48,327] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:00:48.327158+00:00
+[2021-12-07 12:00:48,335] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.072 seconds
+[2021-12-07 12:02:14,438] {processor.py:163} INFO - Started process (PID=5954) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:02:14,444] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:02:14,445] {logging_mixin.py:109} INFO - [2021-12-07 12:02:14,445] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:02:14,474] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:02:14,490] {logging_mixin.py:109} INFO - [2021-12-07 12:02:14,489] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:02:14,498] {logging_mixin.py:109} INFO - [2021-12-07 12:02:14,498] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:02:14.498034+00:00
+[2021-12-07 12:02:14,507] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2021-12-07 12:03:49,279] {processor.py:163} INFO - Started process (PID=6008) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:03:49,280] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:03:49,280] {logging_mixin.py:109} INFO - [2021-12-07 12:03:49,280] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:03:49,308] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:03:49,322] {logging_mixin.py:109} INFO - [2021-12-07 12:03:49,322] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:03:49,330] {logging_mixin.py:109} INFO - [2021-12-07 12:03:49,330] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:03:49.330710+00:00
+[2021-12-07 12:03:49,337] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2021-12-07 12:05:29,828] {processor.py:163} INFO - Started process (PID=6071) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:05:29,834] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:05:29,835] {logging_mixin.py:109} INFO - [2021-12-07 12:05:29,835] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:05:29,868] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:05:29,881] {logging_mixin.py:109} INFO - [2021-12-07 12:05:29,881] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:05:29,891] {logging_mixin.py:109} INFO - [2021-12-07 12:05:29,891] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:05:29.891483+00:00
+[2021-12-07 12:05:29,900] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.072 seconds
+[2021-12-07 12:06:55,714] {processor.py:163} INFO - Started process (PID=6126) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:06:55,721] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:06:55,722] {logging_mixin.py:109} INFO - [2021-12-07 12:06:55,721] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:06:55,764] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:06:55,780] {logging_mixin.py:109} INFO - [2021-12-07 12:06:55,779] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:06:55,794] {logging_mixin.py:109} INFO - [2021-12-07 12:06:55,794] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:06:55.794725+00:00
+[2021-12-07 12:06:55,802] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.091 seconds
+[2021-12-07 12:08:21,838] {processor.py:163} INFO - Started process (PID=6186) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:08:21,844] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:08:21,845] {logging_mixin.py:109} INFO - [2021-12-07 12:08:21,845] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:08:21,871] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:08:21,887] {logging_mixin.py:109} INFO - [2021-12-07 12:08:21,887] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:08:21,895] {logging_mixin.py:109} INFO - [2021-12-07 12:08:21,895] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:08:21.895531+00:00
+[2021-12-07 12:08:21,903] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2021-12-07 12:09:50,483] {processor.py:163} INFO - Started process (PID=6240) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:09:50,484] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:09:50,484] {logging_mixin.py:109} INFO - [2021-12-07 12:09:50,484] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:09:50,514] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:09:50,529] {logging_mixin.py:109} INFO - [2021-12-07 12:09:50,529] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:09:50,540] {logging_mixin.py:109} INFO - [2021-12-07 12:09:50,540] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:09:50.540537+00:00
+[2021-12-07 12:09:50,550] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.067 seconds
+[2021-12-07 12:11:14,150] {processor.py:163} INFO - Started process (PID=6294) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:11:14,156] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:11:14,157] {logging_mixin.py:109} INFO - [2021-12-07 12:11:14,157] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:11:14,190] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:11:14,205] {logging_mixin.py:109} INFO - [2021-12-07 12:11:14,205] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:11:14,213] {logging_mixin.py:109} INFO - [2021-12-07 12:11:14,213] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:11:14.213271+00:00
+[2021-12-07 12:11:14,223] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.074 seconds
+[2021-12-07 12:12:39,517] {processor.py:163} INFO - Started process (PID=6349) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:12:39,523] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:12:39,523] {logging_mixin.py:109} INFO - [2021-12-07 12:12:39,523] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:12:39,557] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:12:39,571] {logging_mixin.py:109} INFO - [2021-12-07 12:12:39,571] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:12:39,580] {logging_mixin.py:109} INFO - [2021-12-07 12:12:39,580] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:12:39.580574+00:00
+[2021-12-07 12:12:39,590] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.074 seconds
+[2021-12-07 12:14:07,020] {processor.py:163} INFO - Started process (PID=6406) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:14:07,022] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:14:07,022] {logging_mixin.py:109} INFO - [2021-12-07 12:14:07,022] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:14:07,053] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:14:07,071] {logging_mixin.py:109} INFO - [2021-12-07 12:14:07,071] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:14:07,080] {logging_mixin.py:109} INFO - [2021-12-07 12:14:07,080] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:14:07.079903+00:00
+[2021-12-07 12:14:07,090] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.071 seconds
+[2021-12-07 12:15:37,867] {processor.py:163} INFO - Started process (PID=6463) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:15:37,879] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:15:37,881] {logging_mixin.py:109} INFO - [2021-12-07 12:15:37,880] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:15:37,929] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:15:37,950] {logging_mixin.py:109} INFO - [2021-12-07 12:15:37,950] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:15:37,959] {logging_mixin.py:109} INFO - [2021-12-07 12:15:37,959] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:15:37.959536+00:00
+[2021-12-07 12:15:37,966] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.100 seconds
+[2021-12-07 12:17:05,620] {processor.py:163} INFO - Started process (PID=6516) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:17:05,626] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:17:05,627] {logging_mixin.py:109} INFO - [2021-12-07 12:17:05,627] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:17:05,661] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:17:05,675] {logging_mixin.py:109} INFO - [2021-12-07 12:17:05,675] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:17:05,685] {logging_mixin.py:109} INFO - [2021-12-07 12:17:05,685] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:17:05.684974+00:00
+[2021-12-07 12:17:05,693] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.073 seconds
+[2021-12-07 12:18:40,852] {processor.py:163} INFO - Started process (PID=6570) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:18:40,858] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:18:40,859] {logging_mixin.py:109} INFO - [2021-12-07 12:18:40,859] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:18:40,893] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:18:40,908] {logging_mixin.py:109} INFO - [2021-12-07 12:18:40,908] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:18:40,917] {logging_mixin.py:109} INFO - [2021-12-07 12:18:40,917] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:18:40.917663+00:00
+[2021-12-07 12:18:40,927] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2021-12-07 12:20:09,292] {processor.py:163} INFO - Started process (PID=6627) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:20:09,298] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:20:09,299] {logging_mixin.py:109} INFO - [2021-12-07 12:20:09,299] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:20:09,329] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:20:09,345] {logging_mixin.py:109} INFO - [2021-12-07 12:20:09,344] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:20:09,353] {logging_mixin.py:109} INFO - [2021-12-07 12:20:09,353] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:20:09.353703+00:00
+[2021-12-07 12:20:09,367] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2021-12-07 12:21:35,018] {processor.py:163} INFO - Started process (PID=6682) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:21:35,019] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:21:35,019] {logging_mixin.py:109} INFO - [2021-12-07 12:21:35,019] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:21:35,053] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:21:35,070] {logging_mixin.py:109} INFO - [2021-12-07 12:21:35,070] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:21:35,079] {logging_mixin.py:109} INFO - [2021-12-07 12:21:35,079] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:21:35.079610+00:00
+[2021-12-07 12:21:35,087] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.070 seconds
+[2021-12-07 12:22:57,982] {processor.py:163} INFO - Started process (PID=6735) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:22:57,988] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:22:57,988] {logging_mixin.py:109} INFO - [2021-12-07 12:22:57,988] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:22:58,025] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:22:58,041] {logging_mixin.py:109} INFO - [2021-12-07 12:22:58,041] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:22:58,055] {logging_mixin.py:109} INFO - [2021-12-07 12:22:58,055] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:22:58.054903+00:00
+[2021-12-07 12:22:58,066] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.085 seconds
+[2021-12-07 12:24:23,206] {processor.py:163} INFO - Started process (PID=6791) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:24:23,212] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:24:23,213] {logging_mixin.py:109} INFO - [2021-12-07 12:24:23,213] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:24:23,244] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:24:23,257] {logging_mixin.py:109} INFO - [2021-12-07 12:24:23,256] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:24:23,264] {logging_mixin.py:109} INFO - [2021-12-07 12:24:23,264] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:24:23.264108+00:00
+[2021-12-07 12:24:23,272] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2021-12-07 12:25:34,126] {processor.py:163} INFO - Started process (PID=6843) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:25:34,128] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 12:25:34,129] {logging_mixin.py:109} INFO - [2021-12-07 12:25:34,129] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:25:34,158] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 12:25:34,170] {logging_mixin.py:109} INFO - [2021-12-07 12:25:34,170] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 12:25:34,177] {logging_mixin.py:109} INFO - [2021-12-07 12:25:34,177] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T17:25:34.177736+00:00
+[2021-12-07 12:25:34,186] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.060 seconds
+[2021-12-07 13:24:15,806] {processor.py:163} INFO - Started process (PID=6958) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:24:15,808] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:24:15,809] {logging_mixin.py:109} INFO - [2021-12-07 13:24:15,809] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:24:15,838] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:24:15,850] {logging_mixin.py:109} INFO - [2021-12-07 13:24:15,850] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:24:15,858] {logging_mixin.py:109} INFO - [2021-12-07 13:24:15,858] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:24:15.857961+00:00
+[2021-12-07 13:24:15,864] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.059 seconds
+[2021-12-07 13:26:06,308] {processor.py:163} INFO - Started process (PID=7039) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:26:06,314] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:26:06,314] {logging_mixin.py:109} INFO - [2021-12-07 13:26:06,314] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:26:06,353] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:26:06,370] {logging_mixin.py:109} INFO - [2021-12-07 13:26:06,369] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:26:06,378] {logging_mixin.py:109} INFO - [2021-12-07 13:26:06,378] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:26:06.378053+00:00
+[2021-12-07 13:26:06,388] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.080 seconds
+[2021-12-07 13:27:25,036] {processor.py:163} INFO - Started process (PID=7096) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:27:25,037] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:27:25,038] {logging_mixin.py:109} INFO - [2021-12-07 13:27:25,038] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:27:25,134] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:27:25,198] {logging_mixin.py:109} INFO - [2021-12-07 13:27:25,198] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:27:25,219] {logging_mixin.py:109} INFO - [2021-12-07 13:27:25,219] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:27:25.218876+00:00
+[2021-12-07 13:27:25,236] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.200 seconds
+[2021-12-07 13:28:39,733] {processor.py:163} INFO - Started process (PID=7147) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:28:39,739] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:28:39,740] {logging_mixin.py:109} INFO - [2021-12-07 13:28:39,739] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:28:39,769] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:28:39,782] {logging_mixin.py:109} INFO - [2021-12-07 13:28:39,781] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:28:39,789] {logging_mixin.py:109} INFO - [2021-12-07 13:28:39,789] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:28:39.789214+00:00
+[2021-12-07 13:28:39,796] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2021-12-07 13:29:47,709] {processor.py:163} INFO - Started process (PID=7201) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:29:47,715] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:29:47,716] {logging_mixin.py:109} INFO - [2021-12-07 13:29:47,716] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:29:47,750] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:29:47,763] {logging_mixin.py:109} INFO - [2021-12-07 13:29:47,762] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:29:47,770] {logging_mixin.py:109} INFO - [2021-12-07 13:29:47,770] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:29:47.770125+00:00
+[2021-12-07 13:29:47,780] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.071 seconds
+[2021-12-07 13:30:54,098] {processor.py:163} INFO - Started process (PID=7256) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:30:54,104] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:30:54,105] {logging_mixin.py:109} INFO - [2021-12-07 13:30:54,105] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:30:54,141] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:30:54,153] {logging_mixin.py:109} INFO - [2021-12-07 13:30:54,153] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:30:54,161] {logging_mixin.py:109} INFO - [2021-12-07 13:30:54,161] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:30:54.161207+00:00
+[2021-12-07 13:30:54,170] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.072 seconds
+[2021-12-07 13:32:01,135] {processor.py:163} INFO - Started process (PID=7306) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:32:01,140] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:32:01,141] {logging_mixin.py:109} INFO - [2021-12-07 13:32:01,141] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:32:01,169] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:32:01,181] {logging_mixin.py:109} INFO - [2021-12-07 13:32:01,181] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:32:01,188] {logging_mixin.py:109} INFO - [2021-12-07 13:32:01,188] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:32:01.188741+00:00
+[2021-12-07 13:32:01,196] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.062 seconds
+[2021-12-07 13:33:08,933] {processor.py:163} INFO - Started process (PID=7358) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:33:08,939] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:33:08,940] {logging_mixin.py:109} INFO - [2021-12-07 13:33:08,940] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:33:08,967] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:33:08,980] {logging_mixin.py:109} INFO - [2021-12-07 13:33:08,980] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:33:08,987] {logging_mixin.py:109} INFO - [2021-12-07 13:33:08,987] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:33:08.987450+00:00
+[2021-12-07 13:33:08,996] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.063 seconds
+[2021-12-07 13:34:40,799] {processor.py:163} INFO - Started process (PID=7434) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:34:40,802] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:34:40,802] {logging_mixin.py:109} INFO - [2021-12-07 13:34:40,802] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:34:40,831] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:34:40,847] {logging_mixin.py:109} INFO - [2021-12-07 13:34:40,847] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:34:40,856] {logging_mixin.py:109} INFO - [2021-12-07 13:34:40,856] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:34:40.856057+00:00
+[2021-12-07 13:34:40,864] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2021-12-07 13:36:15,485] {processor.py:163} INFO - Started process (PID=7532) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:36:15,486] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:36:15,487] {logging_mixin.py:109} INFO - [2021-12-07 13:36:15,486] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:36:15,524] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:36:15,544] {logging_mixin.py:109} INFO - [2021-12-07 13:36:15,544] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:36:15,559] {logging_mixin.py:109} INFO - [2021-12-07 13:36:15,559] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:36:15.559730+00:00
+[2021-12-07 13:36:15,570] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.086 seconds
+[2021-12-07 13:37:38,264] {processor.py:163} INFO - Started process (PID=7592) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:37:38,264] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:37:38,265] {logging_mixin.py:109} INFO - [2021-12-07 13:37:38,265] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:37:38,293] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:37:38,306] {logging_mixin.py:109} INFO - [2021-12-07 13:37:38,306] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:37:38,314] {logging_mixin.py:109} INFO - [2021-12-07 13:37:38,314] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:37:38.314169+00:00
+[2021-12-07 13:37:38,320] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.056 seconds
+[2021-12-07 13:39:08,308] {processor.py:163} INFO - Started process (PID=7697) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:39:08,313] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:39:08,314] {logging_mixin.py:109} INFO - [2021-12-07 13:39:08,314] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:39:08,346] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:39:08,359] {logging_mixin.py:109} INFO - [2021-12-07 13:39:08,359] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:39:08,366] {logging_mixin.py:109} INFO - [2021-12-07 13:39:08,366] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:39:08.366658+00:00
+[2021-12-07 13:39:08,373] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2021-12-07 13:40:31,494] {processor.py:163} INFO - Started process (PID=7765) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:40:31,499] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:40:31,500] {logging_mixin.py:109} INFO - [2021-12-07 13:40:31,500] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:40:31,530] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:40:31,544] {logging_mixin.py:109} INFO - [2021-12-07 13:40:31,544] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:40:31,551] {logging_mixin.py:109} INFO - [2021-12-07 13:40:31,551] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:40:31.551703+00:00
+[2021-12-07 13:40:31,559] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2021-12-07 13:41:47,962] {processor.py:163} INFO - Started process (PID=7829) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:41:47,968] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:41:47,969] {logging_mixin.py:109} INFO - [2021-12-07 13:41:47,969] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:41:48,002] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:41:48,027] {logging_mixin.py:109} INFO - [2021-12-07 13:41:48,027] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:41:48,037] {logging_mixin.py:109} INFO - [2021-12-07 13:41:48,037] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:41:48.037418+00:00
+[2021-12-07 13:41:48,044] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.082 seconds
+[2021-12-07 13:43:06,465] {processor.py:163} INFO - Started process (PID=7888) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:43:06,466] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:43:06,467] {logging_mixin.py:109} INFO - [2021-12-07 13:43:06,466] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:43:06,496] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:43:06,509] {logging_mixin.py:109} INFO - [2021-12-07 13:43:06,509] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:43:06,516] {logging_mixin.py:109} INFO - [2021-12-07 13:43:06,516] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:43:06.516631+00:00
+[2021-12-07 13:43:06,523] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2021-12-07 13:44:35,172] {processor.py:163} INFO - Started process (PID=7948) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:44:35,172] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 13:44:35,173] {logging_mixin.py:109} INFO - [2021-12-07 13:44:35,173] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:44:35,205] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 13:44:35,222] {logging_mixin.py:109} INFO - [2021-12-07 13:44:35,222] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 13:44:35,231] {logging_mixin.py:109} INFO - [2021-12-07 13:44:35,231] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T18:44:35.231601+00:00
+[2021-12-07 13:44:35,241] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.070 seconds
+[2021-12-07 14:05:46,952] {processor.py:163} INFO - Started process (PID=8173) to work on /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 14:05:46,953] {processor.py:625} INFO - Processing file /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-12-07 14:05:46,954] {logging_mixin.py:109} INFO - [2021-12-07 14:05:46,954] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 14:05:46,986] {processor.py:637} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py
+[2021-12-07 14:05:46,999] {logging_mixin.py:109} INFO - [2021-12-07 14:05:46,999] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-07 14:05:47,009] {logging_mixin.py:109} INFO - [2021-12-07 14:05:47,009] {dag.py:2928} INFO - Setting next_dagrun for tutorial to 2021-12-06T19:05:47.008775+00:00
+[2021-12-07 14:05:47,018] {processor.py:171} INFO - Processing /Users/ballakeerthi/opt/anaconda3/lib/python3.8/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds

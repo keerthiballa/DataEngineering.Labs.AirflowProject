@@ -1,0 +1,203 @@
+[2021-12-09 19:02:28,404] {processor.py:163} INFO - Started process (PID=33893) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:02:28,404] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:02:28,404] {logging_mixin.py:109} INFO - [2021-12-09 19:02:28,404] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:02:28,456] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:02:28,477] {logging_mixin.py:109} INFO - [2021-12-09 19:02:28,477] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:02:28,486] {logging_mixin.py:109} INFO - [2021-12-09 19:02:28,486] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:02:28.486099+00:00
+[2021-12-09 19:02:28,494] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.091 seconds
+[2021-12-09 19:06:05,472] {processor.py:163} INFO - Started process (PID=33939) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:06:05,474] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:06:05,474] {logging_mixin.py:109} INFO - [2021-12-09 19:06:05,474] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:06:05,530] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:06:05,561] {logging_mixin.py:109} INFO - [2021-12-09 19:06:05,561] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:06:05,577] {logging_mixin.py:109} INFO - [2021-12-09 19:06:05,576] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:06:05.576744+00:00
+[2021-12-09 19:06:05,630] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.158 seconds
+[2021-12-09 19:06:38,984] {processor.py:163} INFO - Started process (PID=33945) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:06:38,985] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:06:38,985] {logging_mixin.py:109} INFO - [2021-12-09 19:06:38,985] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:06:39,034] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:06:39,053] {logging_mixin.py:109} INFO - [2021-12-09 19:06:39,053] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:06:39,062] {logging_mixin.py:109} INFO - [2021-12-09 19:06:39,062] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:06:39.062566+00:00
+[2021-12-09 19:06:39,070] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.086 seconds
+[2021-12-09 19:07:14,471] {processor.py:163} INFO - Started process (PID=33950) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:07:14,479] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:07:14,480] {logging_mixin.py:109} INFO - [2021-12-09 19:07:14,480] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:07:14,535] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:07:14,588] {logging_mixin.py:109} INFO - [2021-12-09 19:07:14,588] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:07:14,597] {logging_mixin.py:109} INFO - [2021-12-09 19:07:14,597] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:07:14.596871+00:00
+[2021-12-09 19:07:14,608] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.137 seconds
+[2021-12-09 19:07:48,053] {processor.py:163} INFO - Started process (PID=33958) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:07:48,059] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:07:48,059] {logging_mixin.py:109} INFO - [2021-12-09 19:07:48,059] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:07:48,103] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:07:48,123] {logging_mixin.py:109} INFO - [2021-12-09 19:07:48,123] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:07:48,131] {logging_mixin.py:109} INFO - [2021-12-09 19:07:48,130] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:07:48.130863+00:00
+[2021-12-09 19:07:48,140] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.088 seconds
+[2021-12-09 19:09:41,838] {processor.py:163} INFO - Started process (PID=33972) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:09:41,840] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:09:41,841] {logging_mixin.py:109} INFO - [2021-12-09 19:09:41,841] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:09:41,891] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:09:41,914] {logging_mixin.py:109} INFO - [2021-12-09 19:09:41,914] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:09:41,924] {logging_mixin.py:109} INFO - [2021-12-09 19:09:41,924] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:09:41.924032+00:00
+[2021-12-09 19:09:41,931] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.094 seconds
+[2021-12-09 19:13:10,850] {processor.py:163} INFO - Started process (PID=34005) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:13:10,856] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:13:10,857] {logging_mixin.py:109} INFO - [2021-12-09 19:13:10,857] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:13:10,898] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:13:10,916] {logging_mixin.py:109} INFO - [2021-12-09 19:13:10,916] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:13:10,927] {logging_mixin.py:109} INFO - [2021-12-09 19:13:10,927] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:13:10.927057+00:00
+[2021-12-09 19:13:10,938] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.089 seconds
+[2021-12-09 19:13:48,278] {processor.py:163} INFO - Started process (PID=34014) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:13:48,279] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:13:48,279] {logging_mixin.py:109} INFO - [2021-12-09 19:13:48,279] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:13:48,690] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:13:48,745] {logging_mixin.py:109} INFO - [2021-12-09 19:13:48,744] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:13:48,757] {logging_mixin.py:109} INFO - [2021-12-09 19:13:48,756] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:13:48.756827+00:00
+[2021-12-09 19:13:48,788] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.511 seconds
+[2021-12-09 19:14:21,288] {processor.py:163} INFO - Started process (PID=34022) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:14:21,294] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:14:21,295] {logging_mixin.py:109} INFO - [2021-12-09 19:14:21,295] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:14:21,338] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:14:21,360] {logging_mixin.py:109} INFO - [2021-12-09 19:14:21,360] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:14:21,368] {logging_mixin.py:109} INFO - [2021-12-09 19:14:21,368] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:14:21.368004+00:00
+[2021-12-09 19:14:21,376] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.089 seconds
+[2021-12-09 19:14:57,027] {processor.py:163} INFO - Started process (PID=34031) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:14:57,027] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:14:57,028] {logging_mixin.py:109} INFO - [2021-12-09 19:14:57,028] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:14:57,084] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:14:57,104] {logging_mixin.py:109} INFO - [2021-12-09 19:14:57,103] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:14:57,130] {logging_mixin.py:109} INFO - [2021-12-09 19:14:57,130] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:14:57.129972+00:00
+[2021-12-09 19:14:57,141] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.115 seconds
+[2021-12-09 19:15:30,210] {processor.py:163} INFO - Started process (PID=34035) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:15:30,216] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:15:30,217] {logging_mixin.py:109} INFO - [2021-12-09 19:15:30,217] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:15:30,255] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:15:30,273] {logging_mixin.py:109} INFO - [2021-12-09 19:15:30,272] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:15:30,281] {logging_mixin.py:109} INFO - [2021-12-09 19:15:30,281] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:15:30.281223+00:00
+[2021-12-09 19:15:30,292] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.083 seconds
+[2021-12-09 19:16:06,508] {processor.py:163} INFO - Started process (PID=34041) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:16:06,515] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:16:06,515] {logging_mixin.py:109} INFO - [2021-12-09 19:16:06,515] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:16:06,596] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:16:06,622] {logging_mixin.py:109} INFO - [2021-12-09 19:16:06,622] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:16:06,630] {logging_mixin.py:109} INFO - [2021-12-09 19:16:06,630] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:16:06.629875+00:00
+[2021-12-09 19:16:06,640] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.132 seconds
+[2021-12-09 19:16:39,785] {processor.py:163} INFO - Started process (PID=34060) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:16:39,786] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:16:39,786] {logging_mixin.py:109} INFO - [2021-12-09 19:16:39,786] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:16:39,819] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:16:39,833] {logging_mixin.py:109} INFO - [2021-12-09 19:16:39,833] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:16:39,840] {logging_mixin.py:109} INFO - [2021-12-09 19:16:39,840] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:16:39.840424+00:00
+[2021-12-09 19:16:39,847] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.062 seconds
+[2021-12-09 19:17:15,244] {processor.py:163} INFO - Started process (PID=34065) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:17:15,250] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:17:15,252] {logging_mixin.py:109} INFO - [2021-12-09 19:17:15,251] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:17:15,302] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:17:15,320] {logging_mixin.py:109} INFO - [2021-12-09 19:17:15,320] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:17:15,327] {logging_mixin.py:109} INFO - [2021-12-09 19:17:15,327] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:17:15.327255+00:00
+[2021-12-09 19:17:15,334] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.091 seconds
+[2021-12-09 19:17:48,162] {processor.py:163} INFO - Started process (PID=34071) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:17:48,163] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:17:48,163] {logging_mixin.py:109} INFO - [2021-12-09 19:17:48,163] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:17:48,207] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:17:48,224] {logging_mixin.py:109} INFO - [2021-12-09 19:17:48,224] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:17:48,231] {logging_mixin.py:109} INFO - [2021-12-09 19:17:48,231] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:17:48.231358+00:00
+[2021-12-09 19:17:48,238] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.077 seconds
+[2021-12-09 19:18:22,303] {processor.py:163} INFO - Started process (PID=34075) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:18:22,306] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:18:22,306] {logging_mixin.py:109} INFO - [2021-12-09 19:18:22,306] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:18:22,346] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:18:22,361] {logging_mixin.py:109} INFO - [2021-12-09 19:18:22,360] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:18:22,367] {logging_mixin.py:109} INFO - [2021-12-09 19:18:22,367] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:18:22.367204+00:00
+[2021-12-09 19:18:22,375] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.072 seconds
+[2021-12-09 19:18:55,063] {processor.py:163} INFO - Started process (PID=34084) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:18:55,069] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:18:55,069] {logging_mixin.py:109} INFO - [2021-12-09 19:18:55,069] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:18:55,104] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:18:55,118] {logging_mixin.py:109} INFO - [2021-12-09 19:18:55,118] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:18:55,124] {logging_mixin.py:109} INFO - [2021-12-09 19:18:55,124] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:18:55.124458+00:00
+[2021-12-09 19:18:55,134] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.071 seconds
+[2021-12-09 19:19:28,611] {processor.py:163} INFO - Started process (PID=34088) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:19:28,613] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:19:28,613] {logging_mixin.py:109} INFO - [2021-12-09 19:19:28,613] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:19:28,666] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:19:28,687] {logging_mixin.py:109} INFO - [2021-12-09 19:19:28,687] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:19:28,696] {logging_mixin.py:109} INFO - [2021-12-09 19:19:28,696] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:19:28.695878+00:00
+[2021-12-09 19:19:28,707] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.097 seconds
+[2021-12-09 19:20:01,712] {processor.py:163} INFO - Started process (PID=34095) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:20:01,713] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:20:01,713] {logging_mixin.py:109} INFO - [2021-12-09 19:20:01,713] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:20:01,751] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:20:01,770] {logging_mixin.py:109} INFO - [2021-12-09 19:20:01,770] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:20:01,777] {logging_mixin.py:109} INFO - [2021-12-09 19:20:01,777] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:20:01.777071+00:00
+[2021-12-09 19:20:01,784] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.073 seconds
+[2021-12-09 19:20:35,657] {processor.py:163} INFO - Started process (PID=34118) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:20:35,663] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:20:35,663] {logging_mixin.py:109} INFO - [2021-12-09 19:20:35,663] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:20:35,705] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:20:35,723] {logging_mixin.py:109} INFO - [2021-12-09 19:20:35,722] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:20:35,729] {logging_mixin.py:109} INFO - [2021-12-09 19:20:35,729] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:20:35.729572+00:00
+[2021-12-09 19:20:35,738] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.082 seconds
+[2021-12-09 19:21:07,436] {processor.py:163} INFO - Started process (PID=34123) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:21:07,436] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:21:07,436] {logging_mixin.py:109} INFO - [2021-12-09 19:21:07,436] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:21:07,464] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:21:07,477] {logging_mixin.py:109} INFO - [2021-12-09 19:21:07,476] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:21:07,483] {logging_mixin.py:109} INFO - [2021-12-09 19:21:07,483] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:21:07.483332+00:00
+[2021-12-09 19:21:07,497] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.062 seconds
+[2021-12-09 19:21:40,724] {processor.py:163} INFO - Started process (PID=34129) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:21:40,724] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:21:40,725] {logging_mixin.py:109} INFO - [2021-12-09 19:21:40,725] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:21:40,750] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:21:40,762] {logging_mixin.py:109} INFO - [2021-12-09 19:21:40,762] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:21:40,768] {logging_mixin.py:109} INFO - [2021-12-09 19:21:40,768] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:21:40.768794+00:00
+[2021-12-09 19:21:40,782] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.058 seconds
+[2021-12-09 19:22:16,056] {processor.py:163} INFO - Started process (PID=34140) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:22:16,062] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:22:16,062] {logging_mixin.py:109} INFO - [2021-12-09 19:22:16,062] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:22:16,106] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:22:16,123] {logging_mixin.py:109} INFO - [2021-12-09 19:22:16,123] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:22:16,129] {logging_mixin.py:109} INFO - [2021-12-09 19:22:16,129] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:22:16.129650+00:00
+[2021-12-09 19:22:16,138] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.082 seconds
+[2021-12-09 19:22:49,004] {processor.py:163} INFO - Started process (PID=34149) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:22:49,006] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:22:49,007] {logging_mixin.py:109} INFO - [2021-12-09 19:22:49,007] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:22:49,050] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:22:49,065] {logging_mixin.py:109} INFO - [2021-12-09 19:22:49,065] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:22:49,071] {logging_mixin.py:109} INFO - [2021-12-09 19:22:49,071] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:22:49.071781+00:00
+[2021-12-09 19:22:49,078] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.074 seconds
+[2021-12-09 19:23:20,780] {processor.py:163} INFO - Started process (PID=34153) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:23:20,780] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:23:20,780] {logging_mixin.py:109} INFO - [2021-12-09 19:23:20,780] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:23:20,805] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:23:20,818] {logging_mixin.py:109} INFO - [2021-12-09 19:23:20,818] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:23:20,824] {logging_mixin.py:109} INFO - [2021-12-09 19:23:20,824] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:23:20.824475+00:00
+[2021-12-09 19:23:20,837] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.058 seconds
+[2021-12-09 19:23:54,134] {processor.py:163} INFO - Started process (PID=34160) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:23:54,135] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:23:54,135] {logging_mixin.py:109} INFO - [2021-12-09 19:23:54,135] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:23:54,161] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:23:54,175] {logging_mixin.py:109} INFO - [2021-12-09 19:23:54,175] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:23:54,181] {logging_mixin.py:109} INFO - [2021-12-09 19:23:54,181] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:23:54.181731+00:00
+[2021-12-09 19:23:54,192] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.059 seconds
+[2021-12-09 19:24:27,444] {processor.py:163} INFO - Started process (PID=34165) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:24:27,446] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:24:27,446] {logging_mixin.py:109} INFO - [2021-12-09 19:24:27,446] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:24:27,491] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:24:27,508] {logging_mixin.py:109} INFO - [2021-12-09 19:24:27,508] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:24:27,515] {logging_mixin.py:109} INFO - [2021-12-09 19:24:27,515] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:24:27.515304+00:00
+[2021-12-09 19:24:27,522] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.078 seconds
+[2021-12-09 19:25:00,616] {processor.py:163} INFO - Started process (PID=34170) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:25:00,622] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:25:00,622] {logging_mixin.py:109} INFO - [2021-12-09 19:25:00,622] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:25:00,667] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:25:00,683] {logging_mixin.py:109} INFO - [2021-12-09 19:25:00,683] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:25:00,689] {logging_mixin.py:109} INFO - [2021-12-09 19:25:00,689] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:25:00.689714+00:00
+[2021-12-09 19:25:00,696] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.081 seconds
+[2021-12-09 19:25:33,293] {processor.py:163} INFO - Started process (PID=34174) to work on /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:25:33,293] {processor.py:625} INFO - Processing file /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py for tasks to queue
+[2021-12-09 19:25:33,293] {logging_mixin.py:109} INFO - [2021-12-09 19:25:33,293] {dagbag.py:500} INFO - Filling up the DagBag from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:25:33,325] {processor.py:637} INFO - DAG(s) dict_keys(['example_mysql']) retrieved from /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py
+[2021-12-09 19:25:33,367] {logging_mixin.py:109} INFO - [2021-12-09 19:25:33,366] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-09 19:25:33,375] {logging_mixin.py:109} INFO - [2021-12-09 19:25:33,375] {dag.py:2928} INFO - Setting next_dagrun for example_mysql to 2021-12-09T00:25:33.375165+00:00
+[2021-12-09 19:25:33,391] {processor.py:171} INFO - Processing /Users/ballakeerthi/dev/airflow/dags/dag_example_2_mysql.py took 0.099 seconds
